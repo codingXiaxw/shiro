@@ -1,0 +1,47 @@
+body{margin:0;padding:0;BACKGROUND: #4da2da;}
+.mod-head-content {
+	PADDING-LEFT: 33px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/head-bg.gif) repeat-x; COLOR: white; LINE-HEIGHT: 26px; POSITION: relative; HEIGHT: 26px
+}
+.classify-help {
+	BACKGROUND: url(../images/icon3.gif); LEFT: 12px; WIDTH: 15px; POSITION: absolute; TOP: 6px; HEIGHT: 13px
+}
+.menu {
+	BORDER-RIGHT: #4da2da 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #4da2da; PADDING-BOTTOM: 3px; OVERFLOW: hidden; BORDER-LEFT: #a6cae4 1px solid; PADDING-TOP: 4px
+}
+
+.menu H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 4px; HEIGHT: 21px
+}
+.menu H5 A {
+	TEXT-DECORATION: none
+}
+.menu H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; FONT-WEIGHT: normal; FONT-SIZE: 14px; BACKGROUND: url(../images/channel-bg.gif) no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 4px; WIDTH: 191px; CURSOR: pointer; COLOR: #000; PADDING-TOP: 7px; HEIGHT: 20px
+}
+.menu H4.expand {
+	BACKGROUND: url(../images/channel-bg-close.gif) no-repeat
+}
+.menu H4.current {
+	BACKGROUND: url(../images/channel-bg-close.gif) no-repeat
+}
+.menu H4 A {
+	COLOR: #356aa0; TEXT-DECORATION: none
+}
+.menu DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.menu P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;
+}
+.pick {
+	BACKGROUND: #cbe1ef;
+}
+.menu .pick A {
+	BACKGROUND: url(../images/pointer.gif) #cbe1ef no-repeat 10% center; COLOR: #1b4671
+}
+P.level3dir {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; WIDTH: 300px; LINE-HEIGHT: 26px; PADDING-TOP: 0px
+}
+.menu A {
+	DISPLAY: block; PADDING-LEFT: 28px; OVERFLOW: hidden; COLOR: #ffffff; LINE-HEIGHT: 22px; HEIGHT: 22px; TEXT-DECORATION: none
+}

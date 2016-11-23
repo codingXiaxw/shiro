@@ -1,0 +1,202 @@
+.onLoad
+{
+    background:#E9FFEB url(../images/onLoad.gif) no-repeat 3px 3px;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	float:left;
+} 
+
+
+
+.onCorrect{ 
+	display:inline-block; 
+	height:22px; 
+	background:url(../images/reg-menu.gif) no-repeat 0px -22px; 
+	padding-left:15px; 
+	margin-left:10px; 
+	vertical-align:middle; 
+	padding-right:5px;
+	margin-top:5px;
+	float:left;
+}
+
+
+.onError .onFocus p
+{
+	list-style-type:none;
+	list-style-image:none;
+	line-height : 2;
+	float:left;
+}
+.onError .onFocus span
+{
+	color : #000;
+	font-size : 12px;
+	float:left;
+}
+
+
+.onFocus{ 
+	width:287px; 
+	height:20px; 
+	padding-top:3px; 
+	left:0px;top:0px;
+	padding:0px;
+	margin::0px;
+	float:left;
+}
+
+.onFocus_top
+{
+	display:block;
+	width:287px;
+	padding:2px 5px 0 30px;
+	min-height:15px;
+	_height:10px;
+	background:url(../images/verification-ui6.gif) no-repeat 0px 0;
+	float:left;
+	text-align:left;
+}
+.onFocus_bot
+{
+	display:block;
+	width:287px;
+	height:5px;
+	background:url(../images/verification-ui6.gif) no-repeat 0px -185px;
+	overflow:hidden;
+	float:left;
+}
+
+
+
+.onError
+{ 
+	width:287px; 
+	height:20px; 
+	padding-top:3px; 
+	left:0px;top:0px;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+.onError_top
+{ 
+	display:block; 
+	width:287px; 
+	padding:2px 5px 0 30px;
+	min-height:15px; 
+	_height:10px; 
+	background:url(../images/verification-ui6.gif) no-repeat 0px -190px;
+	float:left;
+	text-align:left;
+}
+.onError_bot
+{ 
+	display:block; 
+	width:287px; 
+	height:5px; 
+	background:url(../images/verification-ui6.gif) no-repeat 0px -375px; 
+	overflow:hidden;
+	float:left;
+}
+
+.input_public
+{
+	border:#C1C1C1 1px solid;font-size:12px;line-height:18px; height:22px;padding-left:4px; width:200px;float:left;
+}
+
+.input_error {
+	
+	background-color:#FBE2E2;border-color:#D28C8C;color:#A63B3B;float:left;
+}
+
+.input_focus {
+    background-color:#FFC;border-color:#C6C69E;float:left;
+}
+.input_correct {
+	background-color:#FBFBFB;color:#444;float:left;
+}
+
+/*密码强度样式*/
+.pswState
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	border-bottom : 0px;
+	border-left : 0px;
+	padding-bottom : 0px;
+	margin : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	border-top : 0px;
+	border-right : 0px;
+	padding-top : 0px;
+	vertical-align : middle;
+	margin-left : 10px;
+	overflow : visible;
+	float:left;
+}
+.st1
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	font-style : normal;
+	text-decoration : none;
+	color : #f00;
+	float:left;
+}
+.st2
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	font-style : normal;
+	text-decoration : none;
+	color : #13a821;
+	float:left;
+}
+.progressImage
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	display : inline-block;
+	vertical-align : middle;
+	background : url(../images/global2.png); BACKGROUND-REPEAT: no-repeat;
+	margin-right : 8px;
+	margin : 0px 8px;
+	width : 147px;
+	height : 19px;
+	padding-bottom : 2px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 2px;
+	float:left;
+}
+.prog0
+{
+	background-position : 0px -35px;float:left;
+}
+.prog1
+{
+	background-position : 0px -71px;float:left;
+}
+.prog2
+{
+	background-position : 0px -107px;float:left;
+}
+.prog3
+{
+	background-position : 0px -143px;float:left;
+}

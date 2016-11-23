@@ -1,0 +1,58 @@
+.HeaderTable{
+	background-color: #FFCC66;
+	border: 1px solid #000000;
+	border-bottom:none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	/*font-weight: bolder;*/
+	color: #CC6600;
+}
+.VersionText {
+	font-size: 12px;
+	font-weight: normal;
+}
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:130%;
+	background-color:#F8F8F8;
+	/*padding: 8px;*/
+}
+table {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:130%;
+	background-color:#FFFFFF;
+}
+.ContentTable {
+	border-right:solid 1px #000000;
+}
+.Nav{
+	border-left: 1px solid #000000;
+	background-color:#EFEFEF;
+	width: 120px;
+}
+.BottomTable{
+	border: 1px solid #000000;
+	border-top:none;
+	width: 760px;
+	font-size:10px;
+	background-color:#EFEFEF;
+
+}
+.NewsTable {
+	background-color:#F7F7F7;
+	border:1px solid #DDDDDD;
+}
+
+.CodeTable {
+	background-color: #f7f7f7;
+	border: 1px solid #CCCCCC;
+	font-family: "Courier New", Courier, monospace;
+	/*color: Maroon;*/
+}
+input {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border:1px outset #CCCCCC;
+}

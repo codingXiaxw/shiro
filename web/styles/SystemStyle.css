@@ -1,0 +1,517 @@
+/*默认文字超链接样式*/
+
+A:link {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A:active {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A:visited {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A:hover {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: underline; 
+}
+
+/*导航条文字超链接样式*/
+
+A.WhiteLink:link {
+	COLOR: #FFFFFF; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A.WhiteLink:active {
+	COLOR: #FFFFFF; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A.WhiteLink:visited {
+	COLOR: #FFFFFF; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+A.WhiteLink:hover {
+	COLOR: #FFFFFF; FONT-SIZE: 12px; TEXT-DECORATION: none; 
+}
+
+/*文字超链接样式*/
+
+ A.menu_active_css_LightLink:link {
+	COLOR: #FBF200; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_active_css_LightLink:active {
+	COLOR: #FBF200; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_active_css_LightLink:visited {
+	COLOR: #FBF200; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_active_css_LightLink:hover {
+	COLOR: #FBF200; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+
+A.menu_css_LightLink:link {
+	COLOR: #EFF6F2; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_css_LightLink:active {
+	COLOR: #EFF6F2; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_css_LightLink:visited {
+	COLOR: #EFF6F2; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+A.menu_css_LightLink:hover {
+	COLOR: #FBF200; FONT-SIZE: 13px; FONT-WEIGHT: bold;  TEXT-DECORATION: none; 
+}
+/*house font*/
+
+.FONT24 {
+	COLOR: #ffffff; 
+	font-size: 24px;
+	font-family: "黑体";
+	font-weight: bold;
+}
+/*house money*/
+
+.FONT24blue {
+	COLOR: #395342; 
+	font-size: 24px;
+	font-family: "黑体";
+	font-weight: bold;
+}
+
+/*重定义部分HTML标签*/
+BODY {
+	FONT-SIZE: 12px;
+    COLOR: #ffffff;
+	MARGIN: 0px;
+	BACKGROUND-COLOR:#F3FDF6;
+	SCROLLBAR-FACE-COLOR: #EFF6F2; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; 
+	SCROLLBAR-SHADOW-COLOR: #457650; 	
+	SCROLLBAR-ARROW-COLOR: #395342; 	
+	SCROLLBAR-TRACK-COLOR: #EFF6F2; 
+	SCROLLBAR-3DLIGHT-COLOR: #457650; 
+	SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF;
+
+}
+TD{
+	FONT-SIZE:12px;
+}
+P{
+	FONT-SIZE:12px;
+}
+DIV{
+	FONT-SIZE:12px;
+}
+HR {
+	COLOR: #000000;
+	HEIGHT: 1px;
+}
+ /* 表格样式 */
+.menu_bg
+{
+	background:url(../images/menu_bg.gif) repeat right;
+	width:34%;
+	height:20px;
+	COLOR: #1F283B;
+}
+.ch table{border:1px solid #BBC2D0;border-width:1px 0 0 1px;margin:2px 0 2px 0;text-align:center;border-collapse:collapse;}
+.ch td{height:20px; border:1px solid #BBC2D0;border-width:0 1px 1px 0;margin:2px 0 2px 0;}
+.cf table{border:1px solid #BBC2D0;border-width:1px 0 0 1px;margin:2px 0 2px 0;text-align:center;border-collapse:collapse;}
+.cf td{height:20px; border:1px solid #BBC2D0;border-width:0 1px 1px 0;margin:2px 0 2px 0;}
+.tr0 {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px; 
+	BACKGROUND-COLOR: #ECF0F7;
+	height: 25px;
+}
+.tr1 {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px; 
+	BACKGROUND-COLOR: #ffffff;
+	height: 25px;
+}
+
+/*定义表单元素样式*/
+
+.TextStyle{	
+	FONT-SIZE:12px;COLOR: #395342;border:1px solid #C0DBC5;HEIGHT: 20px;PADDING-TOP: 3px;
+}
+.TextReadOnlyStyle{
+	FONT-SIZE:12px;border:1px solid #C0DBC5;HEIGHT: 20px;background-color:#F2F5F8;PADDING-TOP: 3px; color: #395342;
+}
+.TextAreaStyle{
+	FONT-SIZE:12px;border:1px solid #BCD8BC;
+}
+.TextAreaReadOnlyStyle{
+	FONT-SIZE:12px;border:1px solid #BCD8BC;background-color:#EFF6F2; color: #395342;
+}
+.SelectStyle{
+	FONT-SIZE:12px;color: #395342;border: 1px solid #395342;HEIGHT: 20px;background-color:#EFF6F2;
+}
+.ListStyle{ 
+	FONT-SIZE:12px;border: 1px solid #BCD8BC;
+}
+.ButtonStyle{
+	FONT-SIZE:12px;HEIGHT: 22px;PADDING: 2px;
+	BORDER: #8ABF8C 1px solid; BACKGROUND-COLOR: #EFF6F2; color: #395342;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#D6E8D8);
+}
+.ButtonStyle1{
+	FONT-SIZE:12px;HEIGHT: 22px;WIDTH: 80px;PADDING-TOP: 2px;
+	BORDER: #8ABF8C 1px solid; BACKGROUND-COLOR: #EFF6F2; color: #395342;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#D6E8D8);
+}
+.SplitPageButtonStyle{
+	FONT-SIZE:12px;HEIGHT: 20px;WIDTH: 42px;
+	BORDER:1px solid #BCD8BC; BACKGROUND-COLOR:#EFF6F2;	
+}
+.UpLoadStyle{
+	FONT-SIZE:12px;border:1px solid #BCD8BC;HEIGHT: 20px;
+}
+/*自定义的类属性*/
+
+/*背景色定义*/
+.GrayBgStyle{
+	BACKGROUND-COLOR:#F3F3F3;
+}
+.MoreGrayBgStyle{
+	BACKGROUND-COLOR:#D7D7D7;
+}
+.DarkBgStyle{
+	BACKGROUND-COLOR:#BCD8BC;
+}
+.LightBgStyle{
+	BACKGROUND-COLOR:#EFF6F2;
+}
+.MoreLightBgStyle{
+	BACKGROUND-COLOR:#B7CECC;
+}
+.ShadowBgStyle{
+	BACKGROUND-COLOR:#EFF6F2;
+}
+.WhiteBgStyle{
+	BACKGROUND-COLOR:#FFFFFF;
+}
+.ToolBarStyle {
+	border:1px none #EFF6F2; BACKGROUND-COLOR:#EFF6F2;
+}
+.TableBorderLine{
+	border:1px solid #BCD8BC;
+}
+.reseda{
+	BACKGROUND-COLOR:#E2F3E2;
+}
+
+/*文字颜色定义*/
+.leftStyle{
+	COLOR:#ffffff;
+}
+.DarkFontStyle{
+	COLOR:#395342;
+}
+.LightFontStyle{
+	COLOR:#EFF6F2;
+}
+.WhiteFontStyle{
+	COLOR:#FFFFFF;
+}
+.RedFontStyle{
+	COLOR:FF0000;
+}
+.GrayFontStyle{
+	COLOR:666666;
+}
+.ShadowFontStyle{
+	COLOR:395342; filter:DropShadow(Color=#EFF6F2,OffX=1,OffY=1,positive=1);
+}
+
+/*菜单树*/
+.TreeNode img { 
+	border:0px;
+}
+.TreeNode a span { 
+	font:12px Arial 宋体;
+	margin-left:0px;
+	padding:2px;
+	height:17px;
+	cursor:hand;
+}
+.TreeNode.Anchor { 
+	color:#000000;
+	text-decoration:none;
+}
+.TreeNode.selected span{ 
+	color:#FFFFFF;
+	background-color:#BCD8BC;
+}
+
+/*数据展示样式1*/
+.TableBorderStyle{
+	border-collapse:collapse;
+	border:1px solid #BCD8BC;
+	background-color:#EFF5F0;
+	padding:1px;
+}
+.TablelistBorderStyle{
+	border-collapse:collapse;
+	border:1px solid #FFFFFF;
+	background-color:#FFFFFF;
+}
+.TableBorderStyle td {
+	border:1px solid #BCD8BC;
+	height:22px;	
+}
+.TableTdBgStyle{
+	BACKGROUND-COLOR:#D2EAD2;
+	height:22px;
+	COLOR:#395342;
+}
+.TableTitleStyle {
+	background-image: url(../images/table_title.gif);
+	background-repeat:repeat-x;
+	background-position: left bottom;
+	height:22px;
+	color:#395342;
+	font-weight:bolder;
+}
+.tipStyle {
+	background-image: url(../images/table_title.gif);
+	background-repeat:repeat-x;
+	background-position: left bottom;
+	height:22px;
+	color:#395342;
+	font-weight:bolder;
+}
+/* tab标签展示 */
+.PanelOnStyle {
+	background-image: url(../images/panel_on.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color:#FFFFFF;
+	padding-top:4px;
+}
+.PanelOffStyle {
+	background-image: url(../images/panel_off.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color:#395342;
+	padding-top:4px;
+}
+
+/*鼠标覆盖行显示颜色*/
+.TableTrMouseOver{
+	background-color : #F3F3F3; 
+}
+/*鼠标离开行显示颜色*/
+.TableTrMouseOut{
+	background-color : #FFFFFF;
+}
+/*选中的行显示颜色*/
+.TableTrSelected{
+	background-color : #F3F3F3;
+}
+
+/*隔行显示颜色*/
+.TableTr0{
+	background-color : #EFF6F2;
+}
+/*SysFuncTree页面用到的样式*/
+.FuncTreeStyle {
+	background-color: #D9E4FF;
+	background-image: url(../images/leftbg.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+ 
+.MenuTitleStyle{
+	background-image:url(../images/menu_title.gif);
+	background-repeat:repeat-x;
+	cursor:hand;
+	color:#395342;
+}
+.MenuStyle {
+	padding-left:20px;
+	background-color : #BCD8BC;
+	padding-left:60px;
+	color:#ffffff;
+}
+.MenuActiveStyle {
+	BACKGROUND-POSITION: left center;
+	padding-left:60px;
+	background-color : #87ADE6;
+}
+.MenuHoverStyle {
+	BACKGROUND-POSITION: left center;
+	padding-left:60px;
+	color:#ffffff;
+
+}
+.MenuLineStyle{
+	background-image:url(../images/menu_line.gif);
+	background-repeat:repeat-x;
+	height:2px;
+}
+.TabCardStyle {
+	background-repeat: no-repeat;
+	background-position: center top;
+	color:#395342;
+	padding-top:4px;
+	FONT-SIZE: 14px;
+}
+
+/*SysTitle页面用到的样式*/
+.lt0 {
+	 height:20px; cursor: hand;
+}
+.lt1 {
+	height:20px; cursor: hand; 
+
+}
+.TitleBodyBgStyle {
+	background-image: url(../images/head_topline.gif);
+	background-repeat: repeat-x;
+	background-position:left top;
+}
+.sysname{
+    font-size: 28px;
+    color: #000;
+   font-weight: bold;
+}
+.usergroup{
+    font-size: 18px;
+    color: #000;
+   /*font-weight: bold;*/
+   padding-bottom:1px;
+}
+.TitleBodyLogoStyle {
+	background-image: url(../images/logo_01.png);
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+.TitleBodydhStyle {
+	background-image: url(../images/head_top2bg.gif);
+	BORDER-TOP:#C5DCEC 2px solid;
+}
+
+.TabCardActiveStyle {
+	background-repeat: no-repeat;
+	background-position: center top;
+	color:#FFFFFF;
+	padding-top:4px;
+	FONT-SIZE: 12px;
+}
+
+/*Portal 样式*/
+
+.PortalTitleStyle {
+	background-image: url(../images/portal_title_bg.gif);
+	background-repeat: repeat-x;
+	height:21px;
+	padding-top:4px;
+	padding-left:8px;
+	color:#395342;
+}
+
+.PortalBorderStyle{
+	border:1px solid #BCD8BC;
+	BACKGROUND-COLOR:#EFF6F2;
+	padding:6px;
+	width:100%;
+}
+
+.DivSpacing {
+ padding-bottom:14px;
+}
+
+
+
+/*index登录页面用到的样式*/
+.LoginBgStyle{
+	background-image: url(../images/login_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*框架页用到的样式*/
+.BorderLeft{
+	border-left:1px solid #BCD8BC;
+}
+.BorderTop{
+	border-top:1px solid #BCD8BC;
+}
+.BorderRight{
+	border-right:1px solid #BCD8BC;
+}
+.BorderBottom{
+	border-bottom:1px solid #BCD8BC;
+}
+
+
+TABLE.ToolbarPane {
+	BORDER-LEFT: #BCD8BC 1px solid; 
+	BORDER-TOP: #BCD8BC 1px solid;
+	BORDER-RIGHT: #BCD8BC 1px solid;
+	BACKGROUND-COLOR:#DEECDD;
+}
+TABLE.ToolbarPane A {
+	COLOR: #000000; 
+	TEXT-DECORATION: none;
+	
+}
+TABLE.ToolbarPane A:hover {
+	COLOR: #000000; 
+	TEXT-DECORATION: none;
+	PADDING: 3px;
+	BORDER: #BCD8BC 1px solid;
+	BACKGROUND-COLOR: #FFFFFF;
+
+}
+TABLE.ToolbarPane A:visited {
+	COLOR: #000000;
+}
+
+TABLE.ToolbarSplit {
+	background-image: url(../images/table_title.gif);
+	background-repeat:repeat-x;
+	background-position: left bottom;
+	height:22px;
+	BORDER-LEFT: #BCD8BC 1px solid; 
+	BORDER-BOTTOM: #BCD8BC 1px solid;
+	BORDER-RIGHT: #BCD8BC 1px solid;
+	BACKGROUND-COLOR:#DEECDD;
+}
+/*table切换样式*/
+BODY #search {
+	CLEAR: both; WIDTH: 540px; HEIGHT: 50px
+}
+BODY #search #left {
+	FLOAT: left
+}
+BODY #search #searchleft {
+	PADDING-LEFT: 30px; FLOAT: left; PADDING-TOP: 12px; HEIGHT: 35px; TEXT-ALIGN: left
+}
+BODY #search #searchleft1 {
+	PADDING-LEFT: 30px; PADDING-TOP: 12px; HEIGHT: 35px; TEXT-ALIGN: left
+}
+FORM {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY #newsearch {
+	WIDTH: 540px; HEIGHT: 30px
+}
+BODY #newsearchtop {
+	WIDTH: 540px; HEIGHT: 25px; TEXT-ALIGN: right	
+}
+BODY #newsearchtop LI {
+	FONT-SIZE: 12px; FLOAT: left
+}
+.newsearchinsidew {	BACKGROUND-IMAGE: url(../images/table_title2.gif); BORDER-TOP: #C4E2C0 1px solid; MARGIN-TOP: 2px; BORDER-LEFT: #C4E2C0 1px solid;  BORDER-RIGHT: #C4E2C0 1px solid; WIDTH: 180px; CURSOR: hand; LINE-HEIGHT: 21px; BORDER-BOTTOM: #C4E2C0 1px solid; HEIGHT: 25px; TEXT-ALIGN: center; TEXT-DECORATION: underline}
+
+.newsearchinsider {	BORDER-RIGHT: #C4E2C0 1px solid; BORDER-TOP: #C4E2C0 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #C4E2C0 1px solid; WIDTH: 180px; COLOR: #C4E2C0; PADDING-TOP: 5px; HEIGHT: 25px; BACKGROUND-IMAGE: url(../images/table_title.gif); TEXT-ALIGN: center}
+.newsearchinsider A:visited {
+	COLOR: #395342; TEXT-DECORATION: none
+}
+.newsearchinsidew A:hover {
+WIDTH: 69px; TEXT-ALIGN: center
+}
+BODY #newsearchbottom {
+	BORDER-RIGHT: #C4E2C0 1px solid; BORDER-LEFT: #C4E2C0 1px solid; BORDER-BOTTOM: #C4E2C0 1px solid; POSITION: relative; HEIGHT: 240px; BACKGROUND-COLOR: #F2F8F3
+}
+BODY #newsearchbottom #e1 {	Z-INDEX: 0; LEFT: 0px; VISIBILITY: visible; WIDTH: 540px; POSITION: absolute; TOP: 0px; HEIGHT: 240px}
+BODY #newsearchbottom #e2 {	Z-INDEX: 0; LEFT: 0px; VISIBILITY: hidden; WIDTH: 540px; POSITION: absolute; TOP: 0px; HEIGHT: 240px}
+BODY #newsearchbottom #e3 {	Z-INDEX: 2; LEFT: 0px; VISIBILITY: hidden; WIDTH: 540px; POSITION: absolute; TOP: 0px; HEIGHT: 240px}

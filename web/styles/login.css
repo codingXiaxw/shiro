@@ -1,0 +1,86 @@
+.style3 a {
+	color: white;
+}
+
+html,body {
+	height: 100%;
+	overflow: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	word-break: break-all;
+	font-size: 12px;
+	font-family: "宋体", Arial, Helvetica, sans-serif;
+	color: #2b2b2b;
+	
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+img,a img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	outline: none;
+}
+
+ul,li {
+	list-style: none;
+}
+
+input,select {
+	vertical-align: middle;
+}
+
+.logincon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1034px;
+	height: 418px;
+	margin-left: -517px;
+	margin-top: -209px;
+	text-align: center;
+}
+
+.title {
+	width: 322px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.cen_con {
+	width: 1033px;
+	height: 338px;
+	margin: 0 auto;
+}
+
+.tab_con {
+	position: absolute;
+	top: 60%;
+	left: 51%;
+	margin-top: -110px;
+	margin-left: -115px;
+}
+
+.tab {
+	
+}
+
+.tab tr {
+	line-height: 30px;
+	color: #1644b0;
+}
+

@@ -1,0 +1,102 @@
+* {
+	font-family: Tahoma,Verdana,微软雅黑,新宋体; font-size: 12px;
+}
+body {
+	background: rgb(210, 224, 242);
+}
+a {
+	color: black; text-decoration: none;
+}
+a:hover {
+	color: red; text-decoration: underline;
+}
+.textbox03 {
+	padding: 4px 3px; border: 1px solid rgb(135, 135, 135); width: 190px; height: auto; line-height: 14px; font-size: 14px; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.txt01 {
+	border-width: 1px; border-color: rgb(221, 221, 221); padding: 3px 2px 2px; color: rgb(0, 0, 0);
+}
+.txt {
+	padding: 4px 3px; border: 1px solid rgb(135, 135, 135); height: auto; line-height: 14px; font-size: 14px; background-color: rgb(255, 255, 255);
+}
+.footer {
+	margin: 0px; padding: 0px; text-align: center; color: rgb(21, 66, 139); line-height: 23px; font-weight: bold;
+}
+.head a {
+	color: white; text-decoration: underline;
+}
+.easyui-accordion ul {
+	margin: 0px; padding: 10px; list-style-type: none;
+}
+.easyui-accordion ul li {
+	padding: 0px;
+}
+.easyui-accordion ul li a {
+	line-height: 24px;
+}
+.easyui-accordion ul li div {
+	margin: 2px 0px; padding-top: 2px; padding-left: 10px;
+}
+.easyui-accordion ul li div.hover {
+	background: rgb(224, 236, 255); border: 1px dashed rgb(153, 187, 232); cursor: pointer;
+}
+.easyui-accordion ul li div.hover a {
+	color: rgb(65, 106, 163);
+}
+.easyui-accordion ul li div.selected {
+	background: rgb(224, 236, 255); border: 1px solid rgb(153, 187, 232); cursor: default;
+}
+.easyui-accordion ul li div.selected a {
+	color: rgb(65, 106, 163); font-weight: bold;
+}
+.icon {
+	background: url("../images/tabicons.png") no-repeat; width: 18px; line-height: 18px; display: inline-block;
+}
+.icon-sys {
+	background-position: 0px -200px;
+}
+.icon-set {
+	background-position: -380px -200px;
+}
+.icon-add {
+	background-position: -20px 0px;
+}
+.icon-add1 {
+	background: url("icon/edit_add.png") no-repeat;
+}
+.icon-nav {
+	background-position: -100px -20px;
+}
+.icon-users {
+	background-position: -100px -480px;
+}
+.icon-role {
+	background-position: -360px -200px;
+}
+.icon-set {
+	background-position: -380px -200px;
+}
+.icon-log {
+	background-position: -380px -80px;
+}
+.icon-delete16 {
+	background: url("icon/delete.gif") no-repeat; width: 18px; line-height: 18px; display: inline-block;
+}
+.icon-delete {
+	background-position: -140px -120px;
+}
+.icon-edit {
+	background-position: -380px -320px;
+}
+.icon-magic {
+	background-position: 0px -500px;
+}
+.icon-database {
+	background-position: -20px -140px;
+}
+.icon-expand {
+	background: url("/images/coll2.gif") no-repeat;
+}
+.icon-collapse {
+	background: url("/images/coll3.gif") no-repeat;
+}

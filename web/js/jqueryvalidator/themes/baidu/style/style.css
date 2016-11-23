@@ -1,0 +1,79 @@
+@charset "utf-8";
+input.user_input,input.user_input_hover,input.user_input_focus,input.user_input_error {
+    -moz-transition-duration: 0.5s;
+    -moz-transition-property: all;
+    background: url("../images/user_input_bg.gif") no-repeat scroll left top transparent;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 8px; line-height:30px; overflow:hidden;
+    width: 245px;
+}
+input.user_input_hover {
+    border-color: #ABABAB #CCCCCC #CCCCCC #ABABAB;
+}
+input.user_input_focus {
+    border-color: #377BCB;
+}
+input.user_input_error {
+    border-color: #DA1111;
+}
+
+
+/* 固定提示层样式 */
+.user_div_off{padding-left:5px;overflow:hidden;}
+.user_div_off_txt{padding:4px 10px; line-height:22px; color:#da1111;}
+
+.user_div_on{float:left;font-size:12px; padding-left:5px;overflow:hidden;background: url(../images/user_div_on_bg.gif) no-repeat 0px bottom;padding-bottom:2px; overflow:hidden;}
+.user_div_on_txt{padding:4px 10px; line-height:22px; color:#666666;border:1px solid #bbbbbb;}
+.user_div_on_1{background: url(../images/user_div_on.gif) no-repeat 0px -1px; margin-left:-5px; width: 6px;float: left; height:30px;position:absolute;}
+
+/*密码强度样式*/
+.pswState{
+	line-height : 166.6%;
+	color:#666666;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 12px;
+	border-bottom : 0px;
+	border-left : 0px;
+	padding-bottom : 0px;
+	margin : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	border-top : 0px;
+	border-right : 0px;
+	padding-top : 0px;
+	vertical-align : middle;
+	overflow : visible;
+}
+.st1{line-height : 166.6%;font-family : Verdana, arial, sans-serif;text-align : left;font-size : 12px;font-style : normal;text-decoration : none;color : #f00;}
+.st2{line-height : 166.6%;font-family : Verdana, arial, sans-serif;text-align : left;font-size : 12px;font-style : normal;text-decoration : none;color : #13a821;}
+.progressImage{
+	display : inline-block;
+	vertical-align : middle;
+	background : url(../images/pswState.gif); BACKGROUND-REPEAT: no-repeat;
+	margin-right : 8px;
+	margin : 0px 8px;
+	width : 165px;
+	height : 5px;
+}
+.prog0{background-position : 0px 0px;}
+.prog1{background-position : 0px -22px;}
+.prog2{background-position : 0px -44px;}
+.prog3{background-position : 0px -65px;}
+
+
+.onLoad
+{
+    background:#E9FFEB url(../images/onLoad.gif) no-repeat 3px 3px;
+    padding-left:25px;
+margin-left:10px; 
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 

@@ -1,0 +1,14 @@
+.onLoad{background:url(../images/onLoad.gif) no-repeat 3px 10px;padding-left:25px;font-size: 12px; color:#999; vertical-align:middle } 
+.onCorrect{ display:inline-block; height:34px; background:url(../images/ok_01.png) no-repeat 0 11px; padding-left:15px; vertical-align:middle; padding-right:5px;width:180px !important}
+.onFocus,.onShow,.onLoad{ height:34px;line-height:34px; color:#999; width:180px !important}
+
+.onError{background:url(../images/error_01.png) left 10px no-repeat; padding-left:22px; width:180px !important}
+.onError-bottom{ width:158px; background:url(../images/bottom-left-w.gif) left bottom no-repeat; }
+.onError-right{background:url(../images/bottom-right-w.gif) right bottom no-repeat; }
+.onError-left{background:url(../images/top-left-w.gif) left top no-repeat; }
+.onError-top-right{background:url(../images/top-right-w.gif) right top no-repeat; line-height:18px !important; padding:11px 10px 11px 20px}
+
+.input_public{width:240px; border:2px solid #ddd; border-radius:8px; color:#666 !important; font-size:14px; height:34px; line-height:34px; padding-left:2px; padding-right:2px;}
+.input_error{border-color:#ddd;color:#A63B3B}
+.input_focus{border-color:#ccc}
+.input_correct{background-color:#FBFBFB;color:#444}

@@ -1,0 +1,78 @@
+.fv_tooltip{
+	width:200px; 
+	color:#000;
+	font:lighter 12px Arial,sans-serif;
+	text-decoration:none;
+	text-align:center
+}
+.fv_tooltip span.top{padding: 30px 8px 0; background: url(../images/bt.gif) no-repeat top}
+.fv_tooltip b.bottom{padding:3px 8px 8px;color: #548912; background: url(../images/bt.gif) no-repeat bottom}
+
+.onShow{
+	background:url(../images/onShow.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onFocus{
+	background:url(../images/onFocus.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onError
+{
+	background:url(../images/onError.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onSuccess
+{
+	background:url(../images/onCorrect.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onLoad
+{
+	background:url(../images/onLoad.gif) no-repeat 3px 3px; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 
+
+.formValidateTip
+{
+    position:absolute;
+    padding:10px;
+	background:transparent;
+}
+.fv_iframe
+{
+	position:absolute;
+	z-index:56001;
+	width:expression(this.nextSibling.offsetWidth);
+	height:expression(this.nextSibling.offsetHeight);
+	top:expression(this.nextSibling.offsetTop);
+	left:expression(this.nextSibling.offsetLeft);
+	filter:Alpha(Opacity=0);
+	opacity:0.7;
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+}

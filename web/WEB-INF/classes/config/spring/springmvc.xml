@@ -1,0 +1,116 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
+
+
+
+    <!--使用spring组件扫描
+    一次性配置此包下所有的Handler-->
+    <context:component-scan base-package="controller"/>
+
+
+
+    <!--mvc的注解驱动器，通过它可以替代下边的处理器映射器和适配器-->
+    <mvc:annotation-driven conversion-service="conversionService" validator="validator"></mvc:annotation-driven>
+
+
+
+    <!--配置视图解析器
+    要求将jstl的包加到classpath-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+
+
+    <!--拦截器 -->
+    <mvc:interceptors>
+        <!--多个拦截器,顺序执行 -->
+        <mvc:interceptor>
+            <!--/**可以拦截路径不管有多少层-->
+            <mvc:mapping path="/**"/>
+            <bean class="controller.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <!--/**可以拦截路径不管有多少层-->
+            <mvc:mapping path="/**"/>
+            <bean class="controller.interceptor.PermissionInterceptor"></bean>
+        </mvc:interceptor>
+
+
+    </mvc:interceptors>
+
+
+
+
+
+    <!--定义统一异常处理器-->
+    <bean class="exception.CustomExceptionResolver"></bean>
+
+
+
+
+
+    <!--mvc的注解驱动器，通过它可以替代下边的处理器映射器和适配器-->
+    <!--<mvc:annotation-driven conversion-service="conversionService">-->
+    <!--</mvc:annotation-driven>-->
+
+    <!--转换器-->
+    <!-- conversionService -->
+    <bean id="conversionService"
+          class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <!-- 转换器 -->
+        <property name="converters">
+            <list>
+                <bean class="controller.converter.CustomDateConverter"/>
+                <bean class="controller.converter.StringTrimConverter"/>
+            </list>
+        </property>
+    </bean>
+
+
+
+    <!-- 文件上传
+    CommonsMultipartResolver依赖我们传入的fileupload jar包-->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设置上传文件的最大尺寸为5MB -->
+        <property name="maxUploadSize">
+            <value>5242880</value>
+        </property>
+    </bean>
+
+
+
+
+    <bean id="validator"
+          class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+        <!-- 如果不指定则默认使用classpath下的ValidationMessages.properties -->
+        <property name="validationMessageSource" ref="messageSource" />
+    </bean>
+    <!-- 校验错误信息配置文件 -->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>CustomValidationMessages</value>
+            </list>
+        </property>
+        <property name="fileEncodings" value="utf-8" />
+        <property name="cacheSeconds" value="120" />
+    </bean>
+
+
+</beans>

@@ -1,0 +1,71 @@
+.onShow{
+	background:url(../images/onShow.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onFocus{
+	background:#E9F0FF url(../images/onFocus.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onError
+{
+	background:#FFF2E9 url(../images/onError.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onCorrect
+{
+	background:#E9FFEB url(../images/onSuccess.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+}
+.onLoad
+{
+	background:#E9FFEB url(../images/onLoad.gif) no-repeat 3px 3px; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 
+
+.formValidateTip
+{
+	/*word-wrap:break-word; 自动换行,在FF中对英文和数字无效*/
+    position:absolute;
+    /*width:250px;
+    border:1px solid #a00;*/
+    padding:10px;
+	magin-left:-9999px;
+    /*display:none; *//*我们先不要让它显示*/
+	background:transparent;
+}
+
+.formValidateTip1
+{
+	/*word-wrap:break-word; 自动换行,在FF中对英文和数字无效*/
+    position:absolute;
+    /*width:250px;
+    border:1px solid #a00;
+    padding:10px;*/
+    /*display:none; *//*我们先不要让它显示*/
+	background:transparent;
+}

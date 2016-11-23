@@ -1,0 +1,13 @@
+.ipInput{
+    border:1px solid #7F9DB9;
+    font-size:12px;
+	background-color:#ffffff;
+}
+.ipInput input{
+    border:0px solid #ccc;
+    font-size:12px;
+    height:18px;
+    width:32px;
+    background:transparent;
+    text-align:center;
+}

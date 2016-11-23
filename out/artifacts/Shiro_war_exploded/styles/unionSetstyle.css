@@ -1,0 +1,160 @@
+/* CSS Document  Created by Wayhome Wang(wfwang@corp.netease.com) */
+	/* 2009-2-11 */ /*图片集成*/
+
+
+/*外框架*/
+.fmi_bdWp,td,input,select {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+}
+
+.fmi_mWp {
+	text-align: center;
+}
+
+.fmi_mWpIn {
+	width: 960px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*主体*/
+.fmi_MidWp,.I_Style {
+	height: 580px;
+	position: relative;
+}
+
+.fmi_LgBxWp {
+	width: 230px;
+	height:100%;
+  	background:#DCE9F9 url(images/query_bg.gif) no-repeat bottom !important;
+}
+
+.fmi_LgBxWp legend {
+	display: none;
+}
+
+.fmi_LgBx {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}  /*总框*/ /*标签*/
+.fmi_LgBxTab {
+	position: absolute;
+	left: 1px;
+	top: 0px;
+	width: 230px;
+	height:500px;
+}
+
+.ulTab {
+	width: 220px;
+}
+
+.liTab {
+	font-size: 1px;
+	line-height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.liTab b {
+	display: none;
+}
+
+.liTab .ATab_1 {
+	background-position: 0px -30px !important;
+	width: 210px;
+	height: 103px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.liTab .ATab_1:hover {
+	background-position: -256px -30px !important;
+}
+
+.liTab .ATab_2 {
+	background-position: 0px -132px !important;
+	width: 210px;
+	height: 100px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.liTab .ATab_2:hover {
+	background-position: -256px -132px !important;
+}
+
+.liTab .ATab_3 {
+	background-position: 0px -230px !important;
+	width: 210px;
+	height: 103px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.liTab .ATab_3:hover {
+	background-position: -256px -230px !important;
+}
+
+.liTab .ATab_4 {
+	background-position: 0px -333px !important;
+	width: 210px;
+	height: 103px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.liTab .ATab_4:hover {
+	background-position: -256px -333px !important;
+}
+
+/*选中*/
+.On .ATab_1 {
+	background-position: -512px -30px !important;
+}
+
+.On .ATab_1:hover {
+	background-position: -512px -30px !important;
+}
+
+.On .ATab_2 {
+	background-position: -512px -135px !important;
+}
+
+.On .ATab_2:hover {
+	background-position: -512px -135px !important;
+}
+
+.On .ATab_3 {
+	background-position: -512px -233px !important;
+}
+
+.On .ATab_3:hover {
+	background-position: -512px -233px !important;
+}
+
+.On .ATab_4 {
+	background-position: -512px -333px !important;
+}
+
+.On .ATab_4:hover {
+	background-position: -512px -333px !important;
+}
+
+/*切换的内容*/
+.fmi_ACon {
+	position: absolute;
+	left: 220px;
+	top: 0px;
+	width: 850;
+	height: auto;
+}

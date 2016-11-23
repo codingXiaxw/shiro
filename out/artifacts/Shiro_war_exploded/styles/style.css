@@ -1,0 +1,220 @@
+BODY {
+	FONT: 12px/20px Tahoma,Verdana,sans-serif; COLOR: #1a438e;
+}
+TD {
+	FONT: 12px/20px Tahoma,Verdana,sans-serif; COLOR: #1a438e
+}
+DIV {
+	FONT: 12px/20px Tahoma,Verdana,sans-serif; COLOR: #1a438e
+}
+P {
+	FONT: 12px/20px Tahoma,Verdana,sans-serif; COLOR: #1a438e
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #ffffff; PADDING-TOP: 0px
+}
+BODY {
+	SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-FACE-COLOR: #ecf3fb; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #cccccc; FONT-SIZE: 9pt; SCROLLBAR-TRACK-COLOR: #eaf0f5; TEXT-DECORATION: none; SCROLLBAR-3DLIGHT-COLOR: buttonface
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 10px
+}
+INPUT {
+	FONT: 12px/120% Tahoma,Verdana,sans-serif; HEIGHT: 19px; COLOR: navy
+}
+SELECT {
+	FONT: 12px/120% Tahoma,Verdana,sans-serif; HEIGHT: 19px; COLOR: navy
+}
+
+INPUT {
+	BORDER-BOTTOM: #8ab3db 1px solid; BORDER-LEFT: #8ab3db 1px solid; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px/120% Verdana,sans-serif; COLOR: navy; BORDER-TOP: #8ab3db 1px solid; BORDER-RIGHT: #8ab3db 1px solid
+}
+TEXTAREA {
+	BORDER-BOTTOM: #8ab3db 1px solid; BORDER-LEFT: #8ab3db 1px solid; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px/120% Verdana,sans-serif; COLOR: navy; BORDER-TOP: #8ab3db 1px solid; BORDER-RIGHT: #8ab3db 1px solid
+}
+HR {
+	BORDER-BOTTOM: #8ab3db 1px solid; BORDER-LEFT: #8ab3db 1px solid; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px/120% Verdana,sans-serif; COLOR: navy; BORDER-TOP: #8ab3db 1px solid; BORDER-RIGHT: #8ab3db 1px solid
+}
+.otherinput {
+	BORDER-BOTTOM: #8ab3db 1px solid; BORDER-LEFT: #8ab3db 1px solid; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT: 12px/120% Verdana,sans-serif; COLOR: navy; BORDER-TOP: #8ab3db 1px solid; BORDER-RIGHT: #8ab3db 1px solid
+}
+.noinput INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+TD {
+	BORDER-BOTTOM-COLOR: #c9dbef; BORDER-TOP-COLOR: #c9dbef; BORDER-RIGHT-COLOR: #c9dbef; BORDER-LEFT-COLOR: #c9dbef
+}
+A {
+	COLOR: #1a438e; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+FORM {
+	MARGIN: 0px
+}
+.grid {
+	BORDER-BOTTOM: #b3cde8 1px solid; BORDER-LEFT: #b3cde8 1px solid; BORDER-COLLAPSE: collapse; BORDER-TOP: #b3cde8 1px solid; BORDER-RIGHT: #b3cde8 1px solid
+}
+.nogrid {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.fixed {
+	TABLE-LAYOUT: fixed; OVERFLOW: hidden
+}
+.toptable {
+	WIDTH: 99%; BACKGROUND: #eef7fd
+}
+.category {
+	BACKGROUND: #ffffff; COLOR: #003373; height:30px;
+}
+.category div {
+	float:left;
+}
+.highlight {
+	BACKGROUND: #ffffff
+}
+.smallbox {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; HEIGHT: 16px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.hand {
+	TEXT-ALIGN: center; WIDTH: 176px; BACKGROUND: url(../images/menu_2.gif) no-repeat; HEIGHT: 33px; CURSOR: hand; PADDING-TOP: 2px
+}
+
+.t1 {
+	COLOR: #ff6600
+}
+.t2 {
+	COLOR: red
+}
+.t3 {
+	COLOR: gray
+}
+.t4 {
+	COLOR: #000000
+}
+
+
+.table_search{
+	border-collapse:collapse;
+	border-left:1px solid #CCDEF6;
+	border-top:1px solid #CCDEF6;
+	width:99%;
+}
+.table_search .head{
+	border-collapse:collapse;
+	border-left:1px solid #CCDEF6;
+	border-top:1px solid #CCDEF6;
+	border-right:1px solid #CCDEF6;
+	text-align:left;
+	font-size:12px;
+	background: #337099;
+	color: #FFF;
+	height:10px;
+}
+.table_search .left{
+	border-collapse:collapse;
+	border-right:1px solid #CCDEF6;
+	border-bottom:1px solid #CCDEF6;
+	background: #F3F3F3;
+	font-size:12px;
+	color:#445588;
+	text-align:right;
+	vertical-align:middle;
+}
+.table_search td{
+	border-collapse:collapse;
+	border-right:1px solid #CCDEF6;
+	border-bottom:1px solid #CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+/****ztree树区域样式*****/
+.ztree_customcss{
+	z-index: 1; position: absolute; background-color: #ccc; overflow-x: scroll;overflow-y: scroll; HEIGHT: 200px; width: 200px; display: none;
+}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.pagination ul > li {
+  display: inline;
+}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+.pagination ul > li > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+}
+
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+}
+
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px; 
+          border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.pagination-centered {
+  text-align: center;
+}

@@ -1,0 +1,259 @@
+/*公共样式*/
+.noticeWrap
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	border-bottom : 0px;
+	border-left : 0px;
+	padding-bottom : 0px;
+	margin : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	border-top : 0px;
+	border-right : 0px;
+	padding-top : 0px;
+	display : inline-block;
+	vertical-align : middle;
+	margin-left : 10px;
+	overflow : visible;
+}
+
+/*onLoad状态提示层的样式*/
+
+ 
+/*onShow状态提示层的样式*/
+
+
+/*onCorrect状态提示层的样式*/
+.ico-succ
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	display : inline-block;
+	vertical-align : middle;
+	background-image : url("../images/global2.png"); BACKGROUND-REPEAT: no-repeat;
+	width : 24px;
+	height : 24px;
+	background-position : -180px -72px;
+	margin-right : 8px;
+	padding-bottom : 2px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 2px;
+}
+.txt-succ
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	color : #0e931c;
+}
+/*onError状态提示层的样式*/
+.ico-warning
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	display : inline-block;
+	vertical-align : middle;
+	background-image : url("../images/global2.png"); BACKGROUND-REPEAT: no-repeat;
+	width : 24px;
+	height : 24px;
+	background-position : -252px -72px;
+	margin-right : 8px;
+	padding-bottom : 2px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 2px;
+}
+.txt-err
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	color : #f00;
+}
+/*onFocus状态提示层的样式*/
+
+
+
+/*输入框初始状态的样式*/
+.g-ipt
+{
+	text-align:left;
+	font-family:Verdana, arial, sans-serif;
+	line-height:normal;
+	margin:0px;
+	vertical-align:middle;
+	background-image:url("../images/bgx.png"); BACKGROUND-REPEAT: repeat-x;
+	border: 1px solid #C1C1C1;
+	
+	background-color:#fbfbfb;
+	background-position:0px -72px;
+	font-size: 14px;
+	color:#444444;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	ime-mode:disabled;
+}
+
+/*输入框获得焦点的样式*/
+.g-ipt-active
+{
+	padding: 4px;
+    font-family: Verdana,arial,sans-serif;
+    line-height:normal;
+    margin:0px;
+    vertical-align:middle; 
+    background-image:url(../images/bgx.png); BACKGROUND-REPEAT: repeat-x;
+    background-position: 0 -108px;
+    
+    border: 1px solid #c6c69e;
+    color: #444444;
+    font-size: 14px;
+    background-color:#ffc;
+    text-align: left;
+    padding-bottom:4px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+}
+
+/*输入框数据合法时的样式*/
+
+
+/*输入框数据不合法时的样式*/
+.g-ipt-err
+{
+	text-align:left;
+	font-family:Verdana, arial, sans-serif;
+	line-height:normal;
+	margin:0px;
+	vertical-align:middle;
+	background-image:url("../images/bgx.png"); BACKGROUND-REPEAT: repeat-x;
+	border: 1px solid #C1C1C1;
+	font-size: 14px;
+	background-color:#fbe2e2;
+	border-top-color:#d28c8c;
+	border-right-color:#d28c8c;
+	border-left-color:#d28c8c;
+	border-bottom-color:#d28c8c;
+	background-position:0px -144px;
+	color:#a63b3b;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+}
+
+
+/*鼠标移到文字上*/
+.txt-info-mouseon
+{
+	line-height:166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	margin-top : -4px;
+	font-size : 12px;
+	color : #ffa200;
+}
+
+/*鼠标移到文字外*/
+.txt-info-mouseout
+{
+	line-height:166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	margin-top : -4px;
+	font-size : 12px;
+	color : #999;
+}
+
+/*密码强度样式*/
+.pswState
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	border-bottom : 0px;
+	border-left : 0px;
+	padding-bottom : 0px;
+	margin : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	border-top : 0px;
+	border-right : 0px;
+	padding-top : 0px;
+	vertical-align : middle;
+	margin-left : 10px;
+	overflow : visible;
+}
+.st1
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	font-style : normal;
+	text-decoration : none;
+	color : #f00;
+}
+.st2
+{
+	line-height : 166.6%;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	font-style : normal;
+	text-decoration : none;
+	color : #13a821;
+}
+.progressImage
+{
+	line-height : 166.6%;
+	color : #000;
+	font-family : Verdana, arial, sans-serif;
+	text-align : left;
+	font-size : 14px;
+	display : inline-block;
+	vertical-align : middle;
+	background : url(../images/global2.png); BACKGROUND-REPEAT: no-repeat;
+	margin-right : 8px;
+	margin : 0px 8px;
+	width : 147px;
+	height : 19px;
+	padding-bottom : 2px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 2px;
+}
+.prog0
+{
+	background-position : 0px -35px;
+}
+.prog1
+{
+	background-position : 0px -71px;
+}
+.prog2
+{
+	background-position : 0px -107px;
+}
+.prog3
+{
+	background-position : 0px -143px;
+}

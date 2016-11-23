@@ -1,0 +1,1731 @@
+/*顶部的位置*/
+.navbtbg{
+	background-image: url(http://img01.51jobcdn.com/im/2009/navbtbg.gif);
+	background-repeat: repeat-x;
+	*margin-top:-5px;
+	_margin-top:-5px;
+	height:31px;
+}
+#areaver span a:link
+{
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #ff7300;
+}
+
+#areaver span a:hover
+{
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #ff7300;
+}
+
+#areaver span a:visited
+{
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #ff7300;
+}
+
+/*底部的位置*/
+#bott{
+	background-image:url(http://img01.51jobcdn.com/im/2009/bottombg1.gif);
+	width:1002px;
+	height:41px;
+	background-repeat: repeat-x;
+	text-align:center;
+}
+
+/*======================注册页面========================*/
+.text_red{
+	color:#FF0000;
+	}
+.err_red{
+	color:#FF0000;
+	}
+.text_gray{
+	color:#818181;
+	}
+a.blue3{
+	color:#0365C0;
+	font-size:12px;
+	text-decoration:underline;
+	cursor:pointer;
+	}
+a:hover .blue3{
+	color:#0365C0;
+	font-size:12px;
+	text-decoration:none;
+	}
+#content{
+	width:1000px;	
+	margin:0px auto;
+	padding:0px;
+	font-size:12px;
+	line-height:1.5em;
+	font-family:"Arial";
+	color:#333333;
+	}
+.h1_class{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/title_bg01.gif) no-repeat;
+	width:790px;
+	height:30px;
+	line-height:30px;
+	color:#ff840d;
+	font-size:14px;
+	font-weight:bold;
+	margin:20px auto 12px;
+	padding:0 0 0 42px;
+	}
+.setopen{
+	width:700px;
+	margin:0 auto;
+	padding:0px;
+	line-height:30px;
+	}
+.setopen_con{
+	width:700px;
+	margin:15px auto 30px;
+	padding:0px;
+	}
+.open_con{
+	clear:both;
+	background:#FFFFFF;
+	width:684px;
+	margin:0 auto;
+	padding:0px;
+	}
+.weight666{
+	margin:5px auto;
+	width:666px;
+	text-align:center;
+	line-height:30px;
+	}
+.gary_bg{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/box_title_bg01.gif) repeat-x;
+	height:24px;
+	margin:0 0;
+	padding:0px;
+	width:666px;
+	color:#FF7200;
+	font-weight:bold;	
+	line-height:24px;
+	}
+.space01{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/space01.gif) no-repeat;
+	background-position:right;
+	}
+.weight190{
+	width:190px;
+	}
+.dotline{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/dotline.gif) repeat-x;
+	background-position:bottom;
+	}
+.width90p{
+	width:90%;
+	margin-left:10px;
+	}
+.line02{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/line.gif) repeat-x;
+	height:4px;
+	}
+	
+/*===================求职信填写===================*/
+.h2_class{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/title_bg01.gif) no-repeat;
+	width:790px;
+	height:30px;
+	line-height:25px;
+	color:#333;
+	font-size:12px;
+	font-weight:bold;
+	margin:0px auto 10px;
+	padding:0px 0 0 42px;
+	}
+.jobletter{
+	width:800px;
+	margin:20px auto;
+	padding:0px;
+	}
+.jobletter_con{
+	clear:both;
+	background:#FFFFFF;
+	width:688px;
+	margin:10px auto;
+	padding:0px;
+	}
+.jobletter_con_box{
+	clear:both;
+	background:#FFFFFF;
+	width:676px;
+	margin:0 auto;
+	padding:0px;
+	}
+.weight690{
+	margin:5px auto;
+	width:670px;
+	text-align:center;
+	line-height:30px;
+	}
+.tdh30{
+	height:30px;
+	}
+.gary_bg02{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/box_title_bg01.gif) repeat-x;
+	height:24px;
+	width:1000px;
+	font-weight:bold;	
+	line-height:24px;
+	}
+.gary_bgjb{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/box_title_bg01.gif) repeat-x;
+	height:24px;
+	margin:0 0;
+	padding:0px;
+	width:600px;
+	line-height:24px;
+	}
+.space01{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/space01.gif) no-repeat;
+	background-position:right;
+	}
+.weight190{
+	width:190px;
+	}
+.weight330{
+	width:330px;
+	}
+.weight280{
+	width:280px;
+	}
+.weight100{
+	width:100px;
+	}
+.weight80{
+	width:80px;
+	}
+.weight30{
+	width:30px;
+	}
+.weight150{
+	width:150px;
+	}
+.weight220{
+	width:220px;
+	}
+.dotline{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/dotline.gif) repeat-x;
+	}
+.dotline_out{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/dotline.gif) repeat-x bottom;
+	}
+.height5{
+	height:5px;
+	}
+.title01{
+	width:690px;
+	margin:0 auto;
+	padding:0px;
+	line-height:25px;
+	}
+.gary_bg03{
+	background:#F5F5F5;
+	height:25px;
+	line-height:25px;
+	width:826px;
+	margin:0px auto 20px;
+	}
+.btn_sr{
+	margin:10px auto;
+	width:800px;
+	text-align:center;
+	height:40px;
+	}
+/*============外发简历===============*/
+.sendresume_con{
+	clear:both;
+	background:#FFFFFF;
+	width:780px;
+	margin:10px auto;
+	padding:0px;
+	}
+.sendresume_con_box{
+	clear:both;
+	background:#FFFFFF;
+	width:766px;
+	margin:0 auto;
+	padding:0px;
+	}
+.weight766{
+	width:766px;
+	margin:0 auto 5px;
+	text-align:left;
+	line-height:30px;
+	}
+.weight740_out{
+	width:740px;
+	margin:0 auto 5px;
+	text-align:left;
+	line-height:30px;
+	}
+.gary_bg04{
+	background:#FFFAF5;
+	height:35px;
+	line-height:35px;
+	padding:0 0 0 10px;
+	}
+.padding_l10{
+	padding:0 0 0 10px;
+	}
+.padding_l5{
+	padding:0 0 0 5px;
+	}
+.padding_l30{
+	padding:0 0 0 30px;
+	}
+.height15{
+	height:15px;
+	}
+/*==============简历发送成功==================*/
+.sendsuccess_con{
+	clear:both;
+	background:#FFFFFF;
+	width:650px;
+	margin:10px auto;
+	padding:0px;
+	}
+.sendsuccess_con_box{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/sendresume_bg.gif) no-repeat;
+	background-position:left;
+	width:636px;
+	margin:0 auto;
+	padding:0px;
+	height:200px;
+	}
+.sendsuccess_con_box li{
+	margin:0px;
+	padding:30px 0 0 230px;
+	}
+.title02{
+	width:780px;
+	margin:0 0 0 20px;
+	padding:0px;
+	line-height:25px;
+	}
+.weight280{
+	width:280px;
+	}
+.weight380{
+	width:380px;
+	}
+/*========================粘贴简历=======================*/
+.plaster_resume_title{
+	width:855px;
+	margin:10px auto 10px;
+	padding:0px;
+	}
+/*.plaster_resume_title li{
+	float:left;
+	}*/
+.plaster_ei_btn{
+	background:url(http://img01.51jobcdn.com/im/2009/my/btn_check_bg.gif) no-repeat;
+	width:150px;
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	text-align:center;
+	border:0px;
+}
+.plaster_resume{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/plaster_bg.gif) repeat-x;
+	border:#FF8100 solid 1px;
+	width:855px;
+	margin:0 auto 10px;
+	padding:0px;
+	}
+.textright{
+	line-height:33px;
+	float:right;
+	}
+.ssin
+{
+	float:left;
+}
+#Opennessinfo,.ssinfo,.ssinfo1
+{
+float:left;
+line-height:33px;
+}
+.ssinfo1
+{
+_margin-top:2px;
+}
+#Opennessinfo
+{
+margin-top:5px;
+_margin-top:10px;
+}
+.ssinfo
+{
+margin-top:5px;
+_margin-top:9px;
+}
+#pr_box{
+	margin:15px auto 0px;
+	width:823px;
+	padding:0px;
+	}
+.font14org{
+	color:#FD7102;
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	line-height:24px;
+	}
+.rusume810bg{
+	background:#FFFFFF;
+	width:810px;
+	margin:0 auto;
+	padding:0px;
+	}
+.rusume810bg1{
+	background:#FFFFFF;
+	width:810px;
+	margin-left:15px;
+	}
+.weight810{
+	width:810px;
+	margin:5px 0;
+	padding:0px;
+	line-height:30px;
+	}
+.weight250{
+	width:250px;
+	}
+#edit{
+	margin:15px auto 0;
+	width:823px;
+	padding:0px;
+	}
+.pr_boxp{
+	width:823px;
+	margin:15px auto 0;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	} 
+.edit_btn_bg{
+	width:806px;
+	background:#EDEDED;
+	height:32px;
+	line-height:32px;
+	border-top:#CBCBCB solid 1px;
+	text-align:right;
+	margin:0 auto;
+	padding:2px 10px 0;
+	}
+.edit_text{
+	width:793px;
+	background:#fff;
+	border:#A5ACB2 solid 1px;
+	margin:0 auto;
+	padding:15px;
+	line-height:2.5em;
+	}
+/*========================简历填写=======================*/
+.resume_write{
+	width:967px;
+	margin:10px auto;
+	padding:0px;
+	}
+.rew_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/title_writeresume_bg.gif) no-repeat;
+	width:967px;
+	height:66px;
+	margin:0px;
+	padding:0px;
+	}
+.rew_down{
+	background:#FFF1E6;
+	border-left:#FF8B2A solid 1px;
+	border-right:#FF8B2A solid 1px;
+	width:953px;
+	overflow:hidden;
+	-height:1%;
+	padding:0 6px;
+	}
+.rew_conl{
+	width:780px;
+	float:left;
+	background:#FFFFFF;
+	/*height:370px;*/
+	overflow-x:auto;
+	overflow-y:hidden;
+	position:relative;
+	}
+.rew_conr{
+	width:171px;
+	height:620px;
+	float:left;
+	}
+.rew_conr li{
+	margin:3px 5px 3px 10px;
+	padding:0px;
+	line-height:20px;
+	height:20px;
+	width:150px
+	}
+*html .rew_conr li{
+	float:left;
+	margin:3px 5px 3px 5px;
+	padding:0px;
+	line-height:20px;
+	height:20px;
+	}
+.btn_resume{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/nav_left_bg.gif) no-repeat;
+	background-position:2px 50%;
+	}
+.text_blue_bg{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/text_bbg.gif) no-repeat;
+	width:148px;
+	height:109px;
+	margin:0 auto;
+	padding:30px 5px 0;
+	color:#346699;
+	}
+.rew_top_con{
+	width:770px;
+	padding:0px;
+	height:40px;
+	/*line-height:40px;*/
+	text-align:left;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 177px;
+	padding-top:18px;
+	}
+.rew_con{
+	width:775px;
+	margin:0 auto;
+	padding:0px;
+	}
+.rew_con_paragraph{
+	width:775px;
+	}
+.paragraph_title{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/box_title_bg01.gif) repeat-x;
+	width:760px;
+	height:24px;
+	margin:0 0 5px 5px;
+	padding:0 0 0 20px;
+	line-height:24px;
+	color:#FF7101;
+	font-size:14px;
+	font-weight:bold;
+	}
+.weight780{
+	line-height:30px;
+	width:774px;
+	margin:5px 0 0;
+	}
+.weight110{
+	width:110px;
+	}
+.weight115{
+	width:115px;
+	}
+.weight120{
+	width:120px;
+	}
+.weight125{
+	width:125px;
+	}
+.weight130{
+	width:130px;
+	}
+.weight140{
+	width:140px;
+	}
+.weight145{
+	width:145px;
+	}
+.weight160{
+	width:160px;
+	}
+.weight170{
+	width:170px;
+	}
+.padding_l20{
+	padding:0 0 0 20px;
+	}
+.weight180{
+	width:180px;
+	}
+.weight260{
+	width:260px;
+	}
+.weight290{
+	width:290px;
+	}
+.weight650{
+	width:650px;
+	}
+.weight680{
+	width:680px;
+	}
+.weight400{
+	width:400px;
+	}
+.weight450{
+	width:450px;
+	}
+.weight480{
+	width:480px;
+	}
+.weight540{
+	width:540px;
+	}
+.weight500{
+	width:500px;
+	}
+.weight590{
+	width:590px;
+	}
+.weight700{
+	width:700px;
+	}
+.weight60{
+	width:60px;
+	}
+.weight90{
+	width:90px;
+	}
+.weight70{
+	width:70px;
+	}
+.weight75{
+	width:75px;
+	}
+.weight78{
+	width:76px;
+	}
+.weight60{
+	width:60px;
+	}
+.weight65{
+	width:65px;
+	}
+.weight40{
+	width:40px;
+	}
+.line-height20{
+	line-height:20px;
+	}
+.margin_l94{
+	margin:0 0 -5px 94px;
+	}
+/*简历中心*/
+#resume_center{
+	width:966px;
+	margin:0 auto;
+	padding:0px;
+	}
+.btn01{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/btn_gray03.gif) no-repeat;
+	width:90px;
+	height:36px;
+	padding:0 0 4px 22px;
+	line-height:30px;
+	border:0px;
+	text-align:left
+	}
+.btn02{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/btn_gray02.gif) no-repeat;
+	width:110px;
+	height:36px;
+	padding:0 0 4px 20px;
+	border:0px;
+	text-align:left
+	}
+.width650{
+	width:680px;
+	}
+.resume_center_con{
+	width:966px;
+	margin:0;
+	padding:0px;
+	}
+#recon_wbg{
+	width:952px;
+	background:#FFFFFF;
+	margin:0px auto;
+	padding:5px 0;
+	-height:1%;
+	overflow:hidden;
+	line-height:25px;
+	}
+#resume_down{
+	margin:20px auto;
+	width:966px;
+	padding:0px;
+	}
+.width95{
+	width:95px;
+	}
+.width55{
+	width:55px;
+	}
+.text_center{
+	text-align:center;
+	}
+.text_blue{
+	color:#0A6AD0;
+	}
+.line01{
+	background:#DBDBDB;
+	height:1px;
+	}
+#redown_l{
+	float:left;
+	width:638px;
+	margin:0 0 20px;
+	padding:0px;
+	}
+#redown_r{
+	float:left;
+	width:316px;
+	margin:0 0 0 10px;
+	padding:0px;
+	}
+.redown_lcon{
+	width:638px;
+	margin:0px;
+	padding:0px;
+	}
+.redown_r_salary{
+	height: 200px;
+	}
+.redown_ltop{
+	margin:0px;
+	padding:0 0 0 225px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/text_checked_top.gif) no-repeat;
+	height:37px;
+	line-height:37px;
+	}
+.redown_lcon_bg{
+	width:624px;
+	background:#FFFFFF;
+	margin:0 auto;
+	padding:0px;
+	overflow:hidden;
+	-height:1%;
+	}
+.margintop8{
+	margin-top:8px;
+	line-height:25px;
+	}
+.text_p{
+	text-align:left;
+	margin:10px 0 10px 20px;
+	}
+.redown_r_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/title_qclass_bg.jpg) no-repeat;
+	height:24px;
+	line-height:22px;
+	margin:0;
+	padding:63px 0 0 0;
+	width:315px;
+	color:#5996EC;
+	font-weight:bold;
+	text-align:center;
+	}
+.redown_r_con{
+	width:313px;
+	border-left:#707070 solid 1px;
+	border-right:#707070 solid 1px;
+	background:#F4F4F4;
+	overflow:hidden;
+	-height:1%;
+	}
+.redown_r_con_bg{
+	background:#FFFFFF;
+	width:295px;
+	overflow:hidden;
+	-height:1%;
+	padding:3px;
+	margin:0 auto;
+	}
+.redown_r_down{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/down_qclass_bg.gif) no-repeat;
+	width:315px;
+	height:7px;
+	padding-bottom: 10px;
+	}
+.redown_r_con_bg ul{
+	float:left;
+	width:145px;
+	margin:0 0 0 1px;
+	padding:0px;
+	}
+.redown_r_con_bg li{
+	width:145px;
+	margin:1px 0;
+	padding:0px;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+	overflow:hidden;
+	}
+.qu_bg{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/qclass_bg.gif) no-repeat;
+	width:84px;
+	height:51px;
+	margin:3px auto;
+	padding:11px 0 0 54px;
+	color:#FF752C;
+	font-weight:bold;
+	}
+/*谁看过我的简历*/
+.page_number{
+	width:16px;
+	height:16px;
+	line-height:16px;
+	color:#FF7200;
+	font-weight:bold;
+	text-align:center;
+	padding:1px;
+	}
+#check_resume{
+	margin:0 auto 20px;
+	padding:0px;
+	width:966px;
+	}
+.text14b{
+	font-size:14px;
+	font-weight:bold;
+	height:30px;
+	vertical-align:bottom;
+	}
+.cheakre_p{
+	margin:10px auto;
+	}
+/*简历小提示*/
+#resume_clueon{
+	width:830px;
+	margin:10px auto;
+	padding:0px;
+	}
+#clueon_top{
+	margin:0px;
+	padding:0px;
+	}
+.clueon_title{
+	clear:both;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/title_bg01.gif) no-repeat;
+	width:790px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	font-weight:bold;
+	margin:20px auto 12px;
+	padding:0 0 0 42px;
+	}
+.clueon_con{
+	width:790px;
+	margin:0 auto;
+	padding:0px;
+	}
+.clueon_down{
+	width:802px;
+	height:26px;
+	line-height:26px;
+	text-align:right;
+	margin:10px auto;
+	padding:0 10px 0 0;
+	background:#F4F4F4;
+	}
+/*柱状图*/
+.barp{
+	border:#aeb8d8 solid 1px;
+	width:114px;
+	margin:7px 0 7px 5px;
+	padding:0px;
+	height:10px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/bar_bg.gif) repeat-x;
+	text-align:left;
+	line-height:10px;
+	float:left;
+	}
+.baro{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/bar.gif);
+	background-position:right 50%;
+	height:10px;
+	margin:0px;
+	padding:0px;
+	}
+/*修改资料、人事经理来信等风格统一的窗体样式*/
+.window01{
+	width:465px;
+	margin:0px;
+	padding:0px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/gray_bg02.gif) repeat-x;
+	-height:1%;
+	overflow:hidden;
+	border:#82868D solid 1px;
+	font-size:12px;
+	}
+.window03{
+	width:350px;
+	margin:0px;
+	padding:0px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/gray_bg021.gif) repeat-x;
+	border:#82868D solid 1px;
+	font-size:12px;
+	}
+/*add by fly, 调整简历预览点击导出出现的弹层样式 on 2009-11-17 start*/
+.window04{
+	width:350px;
+	margin:0px;
+	padding:0px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/gray_bg022.gif) repeat-x;
+	border:#82868D solid 1px;
+	font-size:12px;
+	}
+/*add by fly on 2009-11-17 end*/
+.window02{
+	width:526px;
+	margin:0px;
+	padding:0px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/gray_bg02.gif) repeat-x;
+	-height:1%;
+	overflow:hidden;
+	border:#82868D solid 1px;
+	font-size:12px;
+	}
+.window_title{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/window_title_bg.gif) repeat-x;
+	height:28px;
+	color:#FF5F00;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:20px;
+	line-height:28px;
+	}
+.window_con{
+	background:#FFFFFF;
+	width:451px;
+	margin:0 auto 7px;
+	padding:0px;
+	}
+.window_con02{
+	background:#FFFFFF;
+	width:511px;
+	/*margin:0 auto 7px;*/
+	margin:7px;
+	padding:0px;
+	}
+.window_context{
+	padding:5px 0;
+	}
+.window_con_bg{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/hand_bg.gif) no-repeat;
+	background-position:right 100%;	
+	padding:10px;
+	margin:0px;
+	}
+.window_con_bg02{
+	padding:10px;
+	margin:0px;
+	text-align:center;
+	}
+.window_con_bg03{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/hand_bg.gif) no-repeat;
+	background-position:right 100%;	
+	padding:20px 0;
+	margin:0px;
+	line-height:28px;
+	}
+.window_close{
+	margin:0px 5px 0 386px;
+	}
+.window_close02{
+	margin:0px 5px 0 6px;
+	}
+.window_close03{
+	margin:0px 5px 0 350px;
+	}	
+.window_close04{
+	margin:0px 5px 0 330px;
+	}	
+.window_close08{
+	margin:0px 5px 0 280px;
+	}
+.window_close11{
+	margin:0px 5px 0 300px;
+	}
+.window_close12{
+	margin:0px 5px 0 230px;
+	}
+.window_close13{
+	margin:0px 5px 0 170px;
+	}			
+
+.amend_lab{
+	width:385px;
+	margin:0 auto;
+	padding:0px;
+	height:29px;
+	}
+.amend_lab li{
+	float:left;
+	}
+.amend_con{
+	clear:both;
+	width:385px;
+	margin:10px auto;
+	text-align:left;
+	padding:0px;
+	}
+.amend_btn{
+	clear:both;
+	width:385px;
+	margin:5px auto;
+	text-align:center;
+	padding:0px;
+	}
+.input180{
+	width:180px;
+	height:15px;
+	padding:1px 3px 0;
+	line-height:15px;
+	}
+.gary_bg_window{
+	background:#F8F8F8;
+	height:30px;
+	width:461px;
+	font-weight:bold;	
+	line-height:30px;
+	font-size:14px;
+	padding-left:50px;
+	}
+.win_apply{
+	line-height:30px;
+	}
+.line_height20{
+	line-height:20px;
+	}
+/*简历模板*/
+.v1,.v2,.v3{
+	margin:0 auto;
+	padding:0px;
+	width:778px;
+	}
+/*模板一*/
+.v1_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1_top.gif) no-repeat;
+	height:75px;
+	line-height:78px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	padding:3px 0 0;
+	margin:0 0 -3px 0;
+	}
+.v1b_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1b_top.gif) no-repeat;
+	height:75px;
+	line-height:78px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	padding:3px 0 0;
+	margin:0 0 -3px 0;
+	}
+.v1_middle{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1_middle.gif) repeat-y;
+	overflow:hidden;
+	-height:1%;
+	width:778px;
+	}
+.v1b_middle{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1b_middle.gif) repeat-y;
+	overflow:hidden;
+	-height:1%;
+	width:778px;
+	}
+.v1_t{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1_bar.gif) no-repeat;
+	height:16px;
+	line-height:18px;
+	margin:0 0 10px 1px;
+	padding:2px 0 0 55px;
+	font-weight:bold;
+	font-size:12px;
+	}
+.v1b_t{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1b_bar.gif) no-repeat;
+	height:16px;
+	line-height:18px;
+	margin:0 0 10px 1px;
+	padding:2px 0 0 55px;
+	font-weight:bold;
+	font-size:12px;
+	}
+.v1_down{
+	width:778px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1_down.gif) no-repeat;
+	height:10px;
+	}
+.v1b_down{
+	width:778px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v1b_down.gif) no-repeat;
+	height:10px;
+	}
+.v_table01{
+	width:710px;
+	line-height:22px;
+	margin:0 0 15px 20px;
+	padding:0px;
+	text-align:left;
+	}
+/*模板二*/
+.v2_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v2_top.gif) no-repeat;
+	height:83px;
+	line-height:100px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:18px 0 0 42px;
+	margin:0 0 -1px 0;
+	color:#FFFFFF;
+	}
+*html .v2_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v2_top.gif) no-repeat;
+	height:83px;
+	line-height:100px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:18px 0 0 42px;
+	margin:0 0 -18px 0;
+	color:#FFFFFF;
+	}
+.v2_middle{
+	background:#fff;
+	overflow:hidden;
+	-height:1%;
+	border-left:#92B0EC solid 1px;
+	border-right:#92B0EC solid 1px;
+	border-bottom:#92B0EC solid 1px;
+	width:776px;
+	}
+.v2_t{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v2_bar.gif) no-repeat;
+	height:37px;
+	line-height:28px;
+	margin:0 0 10px 20px;
+	padding:0px 0 0 8px;
+	font-weight:bold;
+	font-size:12px;
+	}
+.v_table02{
+	width:700px;
+	line-height:22px;
+	margin:0 0 15px 40px;
+	padding:0px;
+	text-align:left;
+	}
+/*模板三*/
+.v3_top{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v3_top.gif) no-repeat;
+	height:95px;
+	line-height:95px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:0px 0 0 135px;
+	margin:0 0 0px 0;
+	}
+.v3_middle{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v3_middle.gif) repeat-y;
+	overflow:hidden;
+	-height:1%;
+	width:778px;
+	}
+.v3_t{
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v3_bar.gif) no-repeat;
+	height:29px;
+	line-height:29px;
+	margin:0 0 10px 15px;
+	padding:0px 0 0 45px;
+	font-weight:bold;
+	font-size:12px;
+	}
+.v3_down{
+	width:778px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/v3_down.gif) no-repeat;
+	height:20px;
+	}
+.v_table03{
+	width:700px;
+	line-height:22px;
+	margin:0 0 15px 40px;
+	padding:0px;
+	text-align:left;
+	}
+	.ei_btn{
+	background:url(http://img01.51jobcdn.com/im/2009/my/btn_check_bg.gif) no-repeat;
+	width:187px;
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	text-align:center;
+	border:0px;
+	}
+.input140{
+	width:140px;
+	height:12px;
+	line-height:12px;
+	padding:1px;
+	color:#666666;
+	}
+.amend_con{
+	clear:both;
+	width:385px;
+	margin:10px auto;
+	text-align:left;
+	padding:0px;
+	}
+.amend_lab{
+	width:385px;
+	margin:0 auto;
+	padding:0px;
+	height:29px;
+	}
+.amend_lab li{
+	float:left;
+	}
+.width5p{
+	width:5%
+	}
+.width15p{
+	width:15%
+	}
+.width20p{
+	width:20%
+	}
+.width25p{
+	width:25%
+	}
+.width30p{
+	width:30%
+	}
+.width35p{
+	width:35%
+	}
+.width40p{
+	width:40%;
+	}
+.width45p{
+	width:45%;
+	}
+.width50p{
+	width:50%
+	}
+.width55p{
+	width:55%
+	}
+.width60p{
+	width:60%
+	}
+.width65p{
+	width:65%
+	}
+.width70p{
+	width:70%
+	}
+.width75p{
+	width:75%
+	}
+.width80p{
+	width:80%
+	}
+.width90p{
+	width:90%
+	}
+.width100p{
+	width:100%;
+	}
+	
+/**/
+.com
+{
+width:652px;
+}
+.comtext
+{
+	margin-left:6px;
+	width:638px;
+	background-color:#FFFFFF;
+	background-image: url(http://img01.51jobcdn.com/im/2009/cv/cresume/cgbg.gif);
+	height:400px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.com1
+{
+padding-left:50px;
+padding-top:20px;
+float:left;
+}
+.com3
+{
+float:right;
+padding-right:35px;
+padding-top:20px;
+}
+
+.com2
+{
+padding-left:60px;
+font-weight:bold;
+}
+
+.com4
+{
+padding-top:40px;
+padding-left:130px;
+padding-bottom:15px;
+}
+.cvs
+{
+width:420px;
+}
+.cvs li
+{
+float:left;
+width:70px;
+padding:3px;
+}
+
+.location{
+	width:420px;
+	background:url(http://img01.51jobcdn.com/im/2009/cv/kbg.gif) repeat-x;
+	border:#82868D solid 1px;
+	font-size:12px;
+}
+	
+.location_con{
+	width:380px;
+	margin:0 auto 7px;
+	padding:0px;
+}
+
+.icon_need
+{
+margin-top:4px;
+float:left;
+}
+.icon_width
+{
+float:left;
+width:80px;
+}
+
+a.yuan:link {
+  font-size: 12px;
+  color: #333333;
+  text-decoration: none;
+  font-family:"宋体";
+}
+a.yuan:visited {
+  font-size: 12px;
+  color: #333333;
+  text-decoration: none;
+  font-family:"宋体";
+}
+a.yuan:hover {
+  font-size: 12px;
+  color: #333333;
+  text-decoration: underline;
+  font-family:"宋体";
+}
+/*add by fly 添加'new'图标的样式 on 2009-11-23 start*/
+
+.new1_position {
+	position:absolute;
+	margin-left:70px;
+	margin-top:-8px;
+	
+}
+/*add by fly on 2009-11-23 end*/
+
+#ad_cont{width:1000px;height:450px;overflow:hidden;margin:1px auto 2px auto;position:relative;}
+#success_cont{width:454px;height:369px;padding:17px;margin:25px auto 0 auto;background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/success_bg.gif) no-repeat;font-size:12px;font-family:arial,"宋体";line-height:20px;position:absolute;left:260px;}
+.success_words{display:block;height:130px;background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/success_wordsbg.gif) no-repeat;text-align:right;padding:10px;}
+.classbottom{margin-top:95px;}
+
+/*2010-2-8新增弹窗样式开始*/
+.window02b{
+	width:441px;
+	padding:0px;
+	background:url(http://img01.51jobcdn.com/im/2009/my/folder/gray_bg01.gif) repeat-x bottom;
+	-height:1%;
+	overflow:hidden;
+	border:#82868D solid 1px;
+	font-size:12px;
+	}
+.window_con03b{
+	width:428px;
+	margin:0 auto 0;
+	padding:5px 0 0 10px;
+	}
+.window_con_bg05{
+	padding:10px 0;
+	margin:0px;
+	text-align:left;
+	}
+a.orange3:link {
+  font-size: 14px;
+  color: #ff7300;
+  text-decoration: underline;
+}
+a.orange3:visited {
+  font-size: 14px;
+  color: #ff7300;
+  text-decoration: underline;
+}
+a.orange3:hover {
+  font-size: 14px;
+  color: #ff7300;
+  text-decoration: underline;
+}
+a.orange5:link {
+  font-size: 12px;
+  color: #ff7300;
+  text-decoration: none;
+}
+a.orange5:visited {
+  font-size: 12px;
+  color: #ff7300;
+  text-decoration: none;
+}
+a.orange5:hover {
+  font-size: 12px;
+  color: #ff7300;
+  text-decoration: none;
+}
+.orange5{
+  font-size: 14px;
+  color: #ff7300;
+}
+.orange6{
+  font-size: 12px;
+  color: #ff7300;
+}
+a.grey5:link {
+  font-size: 12px;
+  color: #9a9999;
+  text-decoration: none;
+}
+a.grey5:visited {
+  font-size: 12px;
+  color: #9a9999;
+  text-decoration: none;
+}
+a.grey5:hover {
+  font-size: 12px;
+  color: #ff7300;
+  text-decoration: underline;
+}
+.grey5{
+  font-size: 12px;
+  color: #9a9999;
+  padding:0px 0 0 10px;
+  letter-spacing:1px;
+}
+.window_close15{
+	margin:0px 5px 0 383px;
+	}
+/*2010-2-8新增弹窗样式结束*/
+
+.province {
+	background:url(http://img01.51jobcdn.com/im/2009/cv/kbg.gif) repeat-x;
+  border:1px solid #82868D;
+  font-size:12px;
+  background-position:bottom;
+}
+
+
+.province_con {
+  margin:0 auto 7px;
+  padding:0;
+}
+
+.province_cvs li {
+  float:left;
+  padding:3px;
+}
+
+.resume_nav {
+  float:right;
+  border: 1px solid #efeef3;
+  background-color: #f9f9f9;
+  margin: 0 6px 0 15px;
+}
+
+
+.resume_nav ul {
+  list-style:none;
+  margin:0px;
+}
+
+.resume_nav li {
+  float:left;
+  font-size:12px;
+  margin:0 5px 0 7px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.resume_nav img {
+  vertical-align:middle;
+}
+
+#ChangeLanguage a {
+  text-decoration:underline;
+}
+
+.rew_conr li a {
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+.rew_conr li.change_group {
+  float:left;
+  margin:5px 0 0 10px;
+}
+
+.rew_conr li.change_group a {
+  color:#1D8C32;
+  font-size:12px;
+  font-weight:normal;
+  text-decoration:none;
+}
+
+.rew_conr .required {
+  margin-left:35px;
+}
+
+.rew_conl .col_name {
+  width:84px;
+  background:#F3F7F9;
+  font-weight:bold;
+}
+
+.rew_conr li#histogram {
+  border-bottom:1px solid #FFD5B7;
+}
+
+#BPI_info table {
+  margin:0 0 10px 10px;
+  border-bottom:1px solid #E9EDF1;
+}
+
+#Edu_edit table, #Work_edit table, #Other_info table, #Tra_edit table, #Lan_edit table, #Language_info table, #IT_edit table, #Prj_edit table, #Cert_edit table, #Attach_edit table, #Api_edit table, #Misc_edit table, #Mast_edit table, #Spi2p_edit table, #Awd_edit table, #Exp_edit table, #Exp1_edit table {
+  margin:0 20px 10px 10px;
+  _margin:0 17px 10px 5px;
+  border-bottom:1px solid #E9EDF1;
+  border-right:1px solid #E9EDF1;
+
+}
+
+#BPI_info td, #Edu_edit td, #Work_edit td, #Other_info td, #Tra_edit td, #Lan_edit td, #Language_info td, #IT_edit td, #Prj_edit td, #Cert_edit td, #Attach_edit td, #Api_edit td, #Misc_edit td, #Mast_edit td, #Spi2p_edit td,#Awd_edit td, #Exp_edit td, #Exp1_edit td {
+  border-top:1px solid #E9EDF1;
+  padding-left:10px;
+}
+
+#BPI_info td.height10 {
+  border:0;
+  height:0;
+}
+
+#BPI_info table.noborder, #BPI_info td.noborder, #Edu_edit table.linedot, #Edu_edit td.noborder, #Work_edit table.linedot, #Work_edit td.noborder, #Tra_edit table.linedot, #Tra_edit td.noborder, #Lan_edit table.linedot, #Lan_edit td.noborder, #Prj_edit table.linedot, #Prj_edit td.noborder, #Cert_edit table.linedot, #Cert_edit td.noborder, #Attach_edit table.linedot, #Attach_edit td.noborder, #Misc_edit table.linedot, #Misc_edit td.noborder, #Awd_edit table.linedot, #Awd_edit td.noborder, #Exp_edit table.linedot, #Exp_edit td.noborder, #Exp1_edit table.linedot, #Exp1_edit td.noborder {
+  border:0;
+}
+
+.weight195 {
+  width:195px;
+}
+
+
+
+.rew_conl .weight700 {
+  width:700px;
+}
+
+.rew_conr .notice {
+  padding: 30px 5px 0;
+  height: 109px;
+  margin:3px 5px;
+}
+
+.rew_conl .subtitle {
+  height:37px;
+  line-height:37px;
+}
+
+.rew_conl .title_blue {
+  color:#2774C1;
+}
+
+.weight215 {
+  width:215px;
+}
+
+.rew_conl .weight60 {
+  width:60px;
+}
+
+.rew_conl .weight100 {
+  width:100px;
+}
+
+.resume_write_mdf {
+  margin:5px auto;
+}
+
+.rew_top_mdf {
+  height:57px;
+}
+
+.rew_down_mdf {
+  padding:0 5px;
+  width:auto;
+}
+
+.rew_conl_mdf {
+  width:778px;
+  float:right;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  height:440px;
+  height:460px\9;
+  position:static;
+}
+
+.rew_conr_mdf {
+  width:172px;
+  background: url(http://img01.51jobcdn.com/im/2009/cv/cresume/bg_left_nav_content.gif) 0 0 repeat-y;
+  border-left: 3px solid #FFFFFF;
+  border-right: 2px solid #FF8C28;
+  height:440px;
+  height:460px\9;
+}
+
+.rew_conr_mdf li {
+  line-height:23px;
+  height:23px;
+  margin:0;
+  width:auto;
+}
+
+*html .rew_conr_mdf li {
+  float:none;
+  margin:0;
+  height:auto;
+}
+
+.btn_resume_mdf {
+  background:none;
+  border-bottom:1px solid #FFD5B7;
+  background-position:2px 50%;
+}
+
+.rew_top_con_mdf {
+  margin:10px 0 0 330px;
+  width:627px;
+  padding:0;
+}
+
+.paragraph_title_mdf {
+	background:url(http://img01.51jobcdn.com/im/2009/cv/box_title_bg02.gif) repeat-x;
+  width:750px;
+  line-height:29px;
+}
+
+.weight780_mdf {
+  width:735px;
+  height:25px;
+  line-height:25px;  
+}
+
+.icon_width_mdf {
+  margin: 0 30px 0 20px;
+  _margin: 0 30px 0 10px;
+}
+
+.weight670 {
+  width:670px;
+}
+
+.line02_mdf {
+  clear:both;
+  margin:5px 5px 15px 10px
+}
+
+.weight240 {
+  width:240px;
+}
+
+td.card_type #CardType {
+  width:155px;
+}
+
+.weight105 {
+  width:105px;
+}
+
+li#histogram table {
+  margin-left:5px;
+}
+
+li#histogram table.baro {
+  margin-left:0px;
+}
+
+.rew_conr_mdf .all_check {
+  margin: 10px 0 10px 15px;
+  margin: 0px 0 10px 15px\9;
+  _margin:10px 0 10px 25px;
+}
+
+.rew_conr .left_nav_top {
+  background:url(http://img01.51jobcdn.com/im/2009/cv/cresume/bg_left_nav_top.gif) no-repeat;
+}
+
+/*知己知彼优惠券*/
+.luckcode_main{width:441px;height:301px;position:absolute;left:-220px;top:-150px;}
+
+.luckcode_main_1{text-align:right; padding:6px 8px 0 0;position:absolute;top:0px;left:410px;}
+
+.luckcode_main_2{height:60px;font-size:14px;color:red;font-weight:bold;position:absolute;position:absolute;top:100px;left:220px;}
+
+.luckcode_main_3a{font-size:12px;color:#000;line-height:30px;}
+
+.luckcode_main_3{height:50px;font-size:12px;color:#666;position:absolute;position:absolute;top:165px;left:220px;}
+
+.luckcode_main_4{height:50px;position:absolute;position:absolute;top:220px;left:220px;}
+
+/*知己知彼优惠券结束*/

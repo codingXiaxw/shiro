@@ -1,0 +1,863 @@
+/*==================================================
+                 body样式
+           author:张磊2008.06.27
+==================================================*/
+/*ext样式覆盖panel体*/
+.x-panel-body {
+	background-color:#F3F6FC;
+}
+#westsearch{
+  	height:100%;
+  	background:#DCE9F9 url(../images/query_bg.gif) no-repeat bottom;
+}
+#firstmenu{
+  	height:100%;
+	background:#DCE9F9 url(../images/firstmenu_bg.gif) no-repeat bottom;
+}
+/*ext样式覆盖下拉菜单对其*/
+.ext-ie .x-form-text{
+	margin:0px 0;height:22px;line-height:18px;
+}
+/*body的样式*/
+body{
+	font-family:"宋体";
+	font-size:12px;
+	margin:0px;
+	color:#445588;
+	background-color:#fcfcfc;
+}
+
+/*默认的超连接样式*/
+a:link {font-size:12px;text-decoration:none;color:#16438B;}
+a:visited {font-size:12px;text-decoration:none;color:#16438B;}
+a:hover {font-size:12px;text-decoration:none;color:red;}
+a:active {font-size:12px;text-decoration:none;color:red;}
+
+/*TOP的超连接样式*/ 
+a.top:link {font-size:12px;text-decoration:none;color:#16438B;}
+a.top:visited {font-size:12px;text-decoration:none;color:#16438B;}
+a.top:hover {font-size:12px;text-decoration:none;color:#16438B;}
+a.top:active {font-size:12px;text-decoration:none;color:#16438B;}
+
+.add 
+{
+    background-image:url(../images/add.gif) !important;
+}
+.edit
+{
+    background-image:url(../images/edit.gif) !important;
+}
+.delete
+{
+    background-image:url(../images/delete.gif) !important;
+}
+
+.info
+{
+    background-image:url(../images/cfg_list.gif) !important;
+}
+.timeset
+{
+	background-image:url(../images/whole_time_select.gif) !important;
+}
+
+
+
+
+/*这个将是选择高亮行的背景色*/
+.table_data tr.over td,.table_data_all tr.over td {
+	word-break: break-all;
+    word-wrap:break-word;
+    background-color:#E9F2FC;
+}
+
+/*下拉弹出框table的样式*/
+.selectmenu{
+	border-collapse:collapse;
+	vertical-align:middle;
+}
+
+/*数据table的样式*/
+.table_data{
+	border-collapse:collapse;
+	border-left:1px solid #C3DEF9;
+	border-right:1px solid #C3DEF9;
+	border-top:1px solid #C3DEF9;
+	border-bottom:1px solid #C3DEF9;
+	padding:1px;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+/*单独类别table的样式(全边框)*/
+.mytable_data_all{
+	border-collapse:collapse;
+	border:1px solid #C3DEF9;
+	padding:1px;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+.mytable_data_all td{
+	word-break: break-all;
+    word-wrap:break-word;
+	height:3px;
+	border:1px solid #C3DEF9;
+	padding-left:5px;
+}
+
+
+/*数据table的样式(全边框)*/
+.table_data_all{
+	border-collapse:collapse;
+	border:1px solid #C3DEF9;
+	padding:1px;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+/*数据table的行样式*/
+.table_data tr.list,.table_data_all tr.list{
+	font-size:12px;
+	color:#000000;
+	text-align:left;
+	vertical-align:middle;
+}
+/*数据table的行样式*/
+.table_data tr.two,.table_data_all tr.two{
+	font-size:12px;
+	color:#000000;
+	background-color:#FAFAFA;
+	text-align:left;
+	vertical-align:middle;
+}
+
+/*数据table的行样式*/
+.table_data tr,.table_data_all tr{
+	font-size:12px;
+	color:#000000;
+	background-color:#FFFFFF;
+	text-align:left;
+	vertical-align:middle;
+}
+
+/*数据table的th样式*/
+.table_data th,.table_data_all th{
+	font-size:12px;
+	height:25px;
+	border-right:1px solid #D0D0D0;
+	text-align:center;
+	background-color:#F3F6FC;
+	background: url(../images/default/grid/grid3-hrow.gif) repeat-x right;
+}
+
+/*数据table的td样式1*/
+.table_data td,.table_data_all td{
+	word-break: break-all;
+    word-wrap:break-word;
+	height:25px;
+	border:1px solid #ECECEC;
+}
+
+/*子数据table的样式*/
+.table_data_child{
+	border-collapse:collapse;
+	padding:1px;
+	width:100%;
+	background-color:#FFFFFF;
+}
+/*子数据table的行样式*/
+.table_data_child tr{
+	font-size:12px;
+	color:#445588;
+	background-color:#FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+}
+/*子数据table的td样式*/
+.table_data_child td{
+	height:25px;
+	border:1px dashed #ECECEC;
+}
+
+/*分页table的样式*/
+.table_pagination{
+	border-collapse:collapse;
+	border-left:1px solid #C3DEF9;
+	border-right:1px solid #C3DEF9;
+	border-bottom:1px solid #C3DEF9;
+	background-color:#FCFCFC;
+	font-size:12px;
+	color:#445588;
+	text-align:right;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*分页table的样式(全边框)*/
+.table_pagination_all{
+	border-collapse:collapse;
+	border:1px solid #C3DEF9;
+	background-color:#FCFCFC;
+	font-size:12px;
+	color:#445588;
+	text-align:right;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*动作table的样式*/
+.table_action{
+	/*border-left:1px solid #C3DEF9;
+	border-right:1px solid #C3DEF9;
+	border-top:1px solid #C3DEF9;
+	background-color:#CCDEF6;
+	font-size:12px;
+	color:#445588;*/
+	text-align:left;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*动作table的样式(全边框)*/
+.table_action_all{
+	border:1px solid #C3DEF9;
+	background-color:#CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*导航table的样式*/
+.table_navigation{
+	border-collapse:collapse;
+	border-left:1px solid #CCDEF6;
+	border-right:1px solid #CCDEF6;
+	border-top:1px solid #CCDEF6;
+	background-color:#CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*导航table的样式(全边框)*/
+.table_navigation_all{
+	border-collapse:collapse;
+	border:1px solid #CCDEF6;
+	background-color:#CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*查询table的样式*/
+.table_search{
+	border-collapse:collapse;
+	border-left:1px solid #CCDEF6;
+	border-top:1px solid #CCDEF6;
+	width:767px;
+}
+.table_search .head{
+	border-collapse:collapse;
+	border-left:1px solid #CCDEF6;
+	border-top:1px solid #CCDEF6;
+	border-right:1px solid #CCDEF6;
+	text-align:left;
+	font-size:12px;
+	background: #337099;
+	color: #FFF;
+	height:10px;
+}
+.table_search .left{
+	border-collapse:collapse;
+	border-right:1px solid #CCDEF6;
+	border-bottom:1px solid #CCDEF6;
+	background: #E7EEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:right;
+	vertical-align:middle;
+}
+.table_search td{
+	border-collapse:collapse;
+	border-right:1px solid #CCDEF6;
+	border-bottom:1px solid #CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+}
+
+/*查询table的样式(全边框)*/
+.table_search_all{
+	border-collapse:collapse;
+	border:1px solid #CCDEF6;
+	background-color:#CCDEF6;
+	font-size:12px;
+	color:#445588;
+	text-align:left;
+	vertical-align:middle;
+	width:100%;
+}
+
+/*按钮的样式*/
+.btn {
+  border: 1px solid #387DB5;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 2px;
+  height:22px;
+  font-size: 12px;
+  color:#445588;
+  background:url(../images/whole_btn_bg.gif) right; 
+  cursor: pointer;
+}
+.imgdiv{
+	float:left;
+	margin:0px;
+}
+.modeldisplay {
+  MARGIN-TOP: 8px; FONT-SIZE: 12px;  OVERFLOW: hidden;  
+}
+.modeldisplay .pl IMG {
+	DISPLAY: block; MARGIN: 6px auto 1px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.modeldisplay .pl {
+	BORDER-RIGHT: #f3f3f3 1px solid; BORDER-TOP: #f3f3f3 1px solid; FLOAT: left; BORDER-LEFT: #f3f3f3 1px solid; WIDTH: 114px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #f3f3f3 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.modeldisplay A.pl:hover {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ff9900 1px solid; COLOR: #ff9900; BORDER-BOTTOM: #ff9900 1px solid
+}
+.modeldisplay .moduleindex{
+float:left;height:180px;MARGIN-TOP: 8px;
+}
+/*默认img框的样式*/
+img{
+	border-style:none;
+}
+/*默认input文本框的样式
+input{
+	padding:1px 3px;
+	background:#fff url(../images/default/form/text-bg.gif) repeat-x 0 0;
+	border:1px solid #B5B8C8;
+}*/
+/*默认选择文本框的样式*/
+select{
+	padding:1px 3px;
+	background:#fff url(../images/default/form/text-bg.gif) repeat-x 0 0;
+	border:1px solid #B5B8C8;
+}
+/*默认fieldset框的样式*/
+fieldset {
+padding:5px;
+border:1px solid #C3DEF9;
+}
+
+/*默认fieldset框里的legend样式*/
+fieldset legend {
+color:#1E7ACE;
+font-weight:bold;
+padding:3px 5px;
+}
+.welcomegif{
+	width:100%;
+	height:300;
+	background:url(../images/welcome.gif) no-repeat; 
+}
+/*==================================================
+                 按钮样式
+==================================================*/
+
+/*按妞div的样式*/
+#btnimg{
+	margin: -4px 0px 0px 0px;
+	border-style:none;
+}
+/*按妞div的样式*/
+#btnspan{
+	border: 1px solid #387DB5;
+	padding: 5px 5px 0px 5px;
+	cursor:pointer;
+	height:22px;
+  	font-size: 12px;
+  	color:#445588;
+  	background:url(../images/whole_btn_bg.gif) right; 
+}
+
+/*==================================================
+                 tab操作按钮样式
+==================================================*/
+
+/*设定包含列表的div的Box属性*/
+#tabBtnContainer{
+	width:100%;
+	height:20px;
+	background-color:#B3D2E6;
+  	color:#000;
+	font-weight:bold;
+	/*background:url(../images/work_line.gif) right;*/
+	padding:3px 0 3px 0;
+}
+
+/**设定项目列表Ul元素的属性*/
+#tabBtnUi{
+	margin: 1;
+	padding-left: 1px;
+}
+
+/*设定各个列表项目的属性，display属性设定取消项目间的分行，list-style-type设定取消列表项目前的符号*/
+#tabBtnUi li{
+	display: inline;
+	list-style-type: none;
+}
+
+/*设定标签卡中超链接的文字的属性*/
+#tabBtnUi a:link, #tabBtnUi a:visited{
+	background:url(../images/green_arrow.gif) no-repeat;
+	width:20px;
+	height:15px;
+}
+/*==================================================
+                 tab提示标签样式
+==================================================*/
+
+/*设定包含列表的div的Box属性*/
+#tabMsgContainer{
+	/*border-bottom: 0px solid #C3DEF9;background-color: red;*/
+	width:100%;
+	height:25px;
+	background:url(../images/bottom_tab_line.gif) right;
+	padding:3px 0 0px 0;
+	border-bottom:1px solid #387DB5;
+}
+
+/**设定项目列表Ul元素的属性*/
+#tabMsgUi{
+	padding-left: 5px;
+}
+
+/*设定各个列表项目的属性，display属性设定取消项目间的分行，list-style-type设定取消列表项目前的符号*/
+#tabMsgUi li{
+	margin: 0px 2px -5px 2px;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	float: right;
+}
+
+/*设定标签卡中超链接的文字的属性*/
+#tabMsgUi a:link, #tabMsgUi a:visited{
+	/*background:url(/img/btn_bg.gif) right;background-color: #CCDEF6;border: 1px solid #CCDEF6;*/
+	float: none;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 14px;
+	padding: 1px 4px 0px 4px;
+	text-decoration: none;
+	color: #ffffff;
+	height:22px;
+	blr:expression(this.onFocus=this.blur());
+	border-left: 1px solid #387DB5;
+	border-top: 1px solid #387DB5;
+	border-right: 1px solid #387DB5;
+	border-bottom: 0px solid #387DB5;
+}
+
+/*设定当前被选中的标签卡中超链接的属性*/
+#tabMsgUi a:link.selectedTab, #tabMsgUi a:visited.selectedTab{
+	background:url(../images/whole_btn_bg.gif) right;
+	padding: 1px 4px 0px 4px;
+	color: #445588;
+	border-left: 1px solid #387DB5;
+	border-top: 1px solid #387DB5;
+	border-right: 1px solid #387DB5;
+	border-bottom: 0px solid #387DB5;
+}
+
+/*设定超链接鼠标浮动效果*/
+#tabMsgUi a:hover {
+	background:url(../images/whole_btn_bg.gif) right;
+	padding: 1px 4px 0px 4px;
+	color: #445588;
+	border-left: 1px solid #387DB5;
+	border-top: 1px solid #387DB5;
+	border-right: 1px solid #387DB5;
+	border-bottom: 0px solid #387DB5;
+}
+
+/*设定超链接鼠标动作效果*/
+#tabMsgUi a:active  {
+	background:url(../images/whole_btn_bg.gif) right;
+	padding: 1px 4px 0px 4px;
+	color: #445588;
+	border-left: 1px solid #387DB5;
+	border-top: 1px solid #387DB5;
+	border-right: 1px solid #387DB5;
+	border-bottom: 0px solid #387DB5;
+}
+
+#tabMsgUi a:link.transparenceTab, #tabMsgUi a:visited.transparenceTab, #tabMsgUi a:hover.transparenceTab{
+	background-image:none;
+	color: #ffffff;
+	padding: 1px 4px 0px 4px;
+	border: 0px solid #387DB5;
+}
+
+
+
+/*==================================================
+                 一级菜单样式
+==================================================*/
+
+#navigationImg{
+	margin:0px 5px 0px 5px;
+	border-style:none;
+}
+
+/*设定包含列表的div的Box属性*/
+#navigationContainer{
+	width:100%;
+	background-color: #CCDEF6;
+}
+
+/**设定项目列表Ul元素的属性*/
+#navigationUi{
+	margin: 0px;
+	padding-left: 0px;
+	border-bottom: 5px solid #90bade;
+}
+
+/*设定各个列表项目的属性，display属性设定取消项目间的分行，list-style-type设定取消列表项目前的符号*/
+#navigationUi li{
+	margin: 0; 
+	padding: 0;
+	list-style-type: none;
+}
+
+/*设定标签卡中超链接的默认属性*/
+#navigationUi li a{
+	display: block;
+	height:40px;
+}
+
+/*设定标签卡中超链接的文字的属性*/
+#navigationUi a:link, #navigationUi a:visited{
+	float: none;
+	background-color: #CCDEF6;
+	font-size: 18px;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #90bade;
+	text-decoration: none;
+	color: #445588;
+	blr:expression(this.onFocus=this.blur());
+}
+
+/*设定当前被选中的标签卡中超链接的属性*/
+#navigationUi a:link.selectedTab, #navigationUi a:visited.selectedTab{
+	color: #fff;
+	background-color:#B7CCE6;
+}
+
+/*设定超链接鼠标浮动效果*/
+#navigationUi a:hover {
+	color: #fff;
+	background-color:#B7CCE6;
+}
+
+/*设定超链接鼠标动作效果*/
+#navigationUi a:active  {
+	color: #fff;
+	background-color:#B7CCE6;
+}
+
+/*==================================================
+                 tab标签样式
+==================================================*/
+
+/*设定包含列表的div的Box属性*/
+#tabContainer{
+	/*border-bottom: 0px solid #C3DEF9;*/
+	padding: 5px 0px 2px 0px;
+}
+
+/**设定项目列表Ul元素的属性*/
+#tabUi{
+	margin: 0;
+	padding-left: 0px;
+}
+
+/*设定各个列表项目的属性，display属性设定取消项目间的分行，list-style-type设定取消列表项目前的符号*/
+#tabUi li{
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+/*设定标签卡中超链接的文字的属性*/
+#tabUi a:link, #tabUi a:visited{
+	/*background:url(../img/btn_bg.gif) right;*/
+	float: none;
+	background-color: #DEECFD;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin-right: -1px;
+	border-top: 1px solid #CCDEF6;
+	border-left: 1px solid #CCDEF6;
+	border-right: 1px solid #CCDEF6;
+	border-bottom: 1px solid #DEECFD;
+	text-decoration: none;
+	color: #8DB2E3;
+}
+
+/*设定当前被选中的标签卡中超链接的属性*/
+#tabUi a:link.selectedTab, #tabUi a:visited.selectedTab{
+	/*background:url(../img/ad_bg.gif) right;*/
+	border-top: 1px solid #CCDEF6;
+	border-left: 1px solid #CCDEF6;
+	border-right: 1px solid #CCDEF6;
+	border-bottom: 2px solid #CCDEF6;
+	background-color: #CCDEF6;
+	color: #445588;
+}
+
+/*设定超链接鼠标浮动效果*/
+#tabUi a:hover{
+	/*background:url(../img/ad_bg.gif) right; */
+	border: 1px solid #CCDEF6;
+	color: #445588;
+	background-color: #CCDEF6;
+}
+
+/*==================================================
+                 编辑页面样式
+           author:凌青2008.07.01
+==================================================*/
+
+/*编辑页面数据列表表格的样式*/
+.table_edit_list {
+	border-collapse:collapse;
+
+}
+/*编辑页面数据列表表格的样式(全边框)*/
+.table_edit_list_all {
+	border-collapse:collapse;
+	padding-bottom: 1px;
+	border: 1px solid #2275B9;
+	width:100%;
+	padding:1px;
+}
+
+/*设定左边列的颜色*/
+.table_edit_list_left_box {
+	border-right: 1px solid #2275B9;
+	background: #E7EEF6;
+	text-align: right;
+	padding-right: 6px;
+	border-bottom: 1px solid #2275B9;
+}
+
+/*设定右边列的颜色*/
+.table_edit_list_right_box {
+	padding-left: 2px;
+	border-bottom: 1px solid #2275B9;
+}
+
+/*设定编辑框中标题格式*/
+.smalltitle {
+	border-left: 6px solid #FF7300;
+	background:url(../images/whole_btn_bg.gif) right;
+	padding: 4px 20px 1px 8px;
+	color: #445588;
+	font-weight: bold;
+	width:100%;
+}
+
+/*编辑数据table的td样式*/
+.table_edit_list td,.table_edit_list_all td{
+	height:25px;
+	border:1px dashed #E7EEF6;
+}
+
+/*设定红色*/
+.redfont {
+	color:red;
+}
+
+/*总体表格的样式*/
+.table {
+	border-collapse:collapse;
+	border-top:2px solid #C3DEF9;
+	border-right:2px solid #C3DEF9;
+	border-left:2px solid #C3DEF9;
+	width:100%;
+}
+/*总体表格的样式(全边框)*/
+.table_all {
+	border-collapse:collapse;
+	border:2px solid #C3DEF9;
+	width:100%;
+}
+/*编辑数据table的td样式*/
+.table_all td,table td{
+	font-size:12px;
+}
+/*分页没有记录提示信息*/
+.page_all_display{
+	width:100%;
+  	font-size:18px;
+  	color: #ff0000;
+  	text-align:center;
+  	padding: 5px 0px 5px 0px;
+}
+
+.TableBorderStyle{
+	border-collapse:collapse;
+	border:1px solid #A7CCEB;
+	background-color:#FFFFFF;
+	padding:0px,0px,0px,0px;
+	margin:0px,0px,0px,0px; 
+	background: #f9f9f4;
+	width:100%;
+}
+
+/*这个将是选择高亮行的背景色2ggh*/
+.outer td,outer tr{
+    background-color:#f9f9f4;
+}
+.bodytable{
+  width:100%;
+}
+.bodytable .top{
+ 
+  padding-top:5px;
+  width:100%;
+  	text-align:center;
+}
+.bodytable .search{
+  
+  width:100%;
+  	text-align:center;
+}
+
+.bodytable .center{
+  width:100%;
+}
+.bodytable .foot{
+ /*height:20px;*/
+ padding-top:10px;
+ width:100%;
+}
+.bodytable .handle{
+ width:100%;
+ padding-top:10px;
+  	text-align:center;
+}
+/*
+.bodytable .centerdiv{
+ height:100%;overflow:auto;overflow-y:yes;
+}
+*/
+#tooltip{
+    background:#fdf9e5; 
+	border:1px solid #fd7d2c;
+	color:#222222;
+	display: none;
+	text-align: left;
+	padding: 5px 3px 5px 3px;
+	position: absolute;
+	z-index:99999; 
+}
+
+
+.blue_clum{border:1px solid #BECED8;margin-top:15px;}
+.blue_clum h2{height:29px;line-height:31px;_line-height:29px;padding-left:15px;background:url(../images/repeat.png) 0 -84px repeat-x;display:block;border:1px solid #fff;font-weight:bold;}
+
+.blue_clum_title{border-bottom:1px solid #BECED8;height:31px;}
+/*对话框*/
+.blue_border{border:1px solid #bdcddc;}
+.dialog_box{margin:0;background:#fff;}
+.dialog_box .massage_frame{padding:5px 10px;margin:10px 12px;}
+.re_question li .f_left{width:180px;}
+.re_question li,.edit_pay li{margin:0}
+.edit_pay li .f_left{width:150px;}
+.dialog_box .blue_clum_title{ position:relative;}
+.dialog_close{position:absolute;right:10px;top:8px; background:url(../images/icon1.png) -84px -77px no-repeat;width:16px;height:16px;display:inline-block; cursor:pointer;}
+.dialog_text{padding:20px 30px 30px 30px}
+.dialog_button{padding:0 30px 20px 30px;text-align:center}
+.blue_btn{ background-position:left -144px;}
+.blue_btn span,.blue_btn input{background-position:right -144px;color:#fff;height:29px;line-height:29px; font-size:14px;}
+
+.d_blue_btn{ background-position:left -351px;}/*首页登录后按钮*/
+.d_blue_btn span,.d_blue_btn input{background-position:right -351px;color:#000;height:30px;line-height:29px; font-size:14px;font-weight:normal;padding:0 16px;}
+
+.dialog_text{padding:20px 30px 30px 30px;font:14px Arial,"宋体";color:#000;line-height:150% }
+.dialog_button{padding:0 30px 20px 30px;text-align:center}
+.w_440{width:440px;}
+.blue_clum_title h2 {font-weight:bould;font-size:14px;margin-left:18px;}
+
+
+.mail_space{
+	float:left;
+	padding-top:5px;
+	}
+.mail_space p{
+	float:left;
+	}
+.mail_space strong{
+	display:block;
+	width:120px;
+	height:20px;
+	line-height:11px;
+	overflow:hidden;
+	float:left;
+	background:url(../images/space_bg.gif) no-repeat;
+	padding:4px 3px;
+	margin:2px 0 0 4px;
+	cursor:hand;
+	}
+.mail_space strong b{
+	display:block;
+	height:3px;
+	line-height:3px;
+	overflow:hidden;
+	background:url(../images/space_cont.gif) repeat-x;
+	}
+.mail_space em{
+	display:block;
+	float:left;
+	padding:2px 0 0 4px;
+	font-size:10px;
+	color:#090;
+	}
+.fred{
+	color:#c00;
+	}
+.clear{
+clear:both;
+}
+
+input.button {
+	    padding-left:5px;padding-right:5px;border: 1px solid #387DB5; COLOR: #000;  HEIGHT: 30px; 
+		background:url(../images/whole_btn_bg.gif);CURSOR: hand;height:25px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
