@@ -3,6 +3,7 @@ package controller;
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import controller.validation.ValidGroup1;
 import exception.CustomException;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
@@ -50,6 +51,7 @@ public class ItemsController {
     }
 
     @RequestMapping("/queryItems")
+    @RequiresPermissions("item:query")
     public ModelAndView queryItems() throws Exception {
         //调用servie来查询商品列表
         List<ItemsCustom> itemsList=itemsService.findItemsList(null);
@@ -103,6 +105,7 @@ public class ItemsController {
 
     //方法返回字符串，字符串就是逻辑视图名，Model作用时将数据填充到request域，在页面显示
     @RequestMapping(value = "/editItems",method = RequestMethod.GET)
+    @RequiresPermissions("item:update")//执行此方法需要item:update权限
     public String editItems(Model model, Integer id) throws Exception
     {
 
@@ -151,7 +154,9 @@ public class ItemsController {
     //商品提交页面
     //itemsQueryVo是包装类型的pojo
     //在@Validated中定义使用ValidGroup1组下边的校验
+
     @RequestMapping("/editItemSubmit")
+    @RequiresPermissions("item:update")//执行此方法需要item:update权限
     public String editItemSubmit(Model model,Integer id,
                                  @Validated(value = {ValidGroup1.class}) @ModelAttribute(value = "itemsCustom") ItemsCustom itemsCustom,
                                  BindingResult bindingResult,

@@ -3,7 +3,7 @@
 <%@ include file="/WEB-INF/jsp/tag.jsp"%>
 <html>
 <head>
-<TITLE>药品采购平台</TITLE>
+<TITLE>商品查询购买系统</TITLE>
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -62,7 +62,7 @@
 						<TR>
 							<TD>用户名：</TD>
 							<TD colSpan="2"><input type="text" id="usercode"
-								name="usercode" style="WIDTH: 130px" /></TD>
+								name="username" style="WIDTH: 130px" /></TD>
 						</TR>
 						<TR>
 							<TD>密 码：</TD>
@@ -76,6 +76,11 @@
 								width="56" height="20" align='absMiddle' /> <a
 								href=javascript:randomcode_refresh()>刷新</a></TD>
 						</TR>
+
+						<tr>
+							<td></td>
+							<td><input type="checkbox" name="rememberMe"/>自动登录</td>
+						</tr>
 
 						<TR>
 							<TD colSpan="2" align="center"><input type="button"

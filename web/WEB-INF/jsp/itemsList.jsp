@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt"  prefix="fmt"%>
+<%@ taglib uri="http://shiro.apache.org/tags" prefix="shiro" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -61,7 +62,12 @@
 	<td><fmt:formatDate value="${item.createtime}" pattern="yyyy-MM-dd HH-mm-ss"/></td>
 	<td>${item.detail }</td>
 	
-	<td><a href="${pageContext.request.contextPath }/items/editItems.action?id=${item.id}">修改</a></td>
+	<td>
+		<!--有item:update权限才现实修改链接，没有权限则不显示修改链接-->
+		<shiro:hasPermission name="item:update">
+			<a href="${pageContext.request.contextPath }/items/editItems.action?id=${item.id}">修改</a>
+		</shiro:hasPermission>
+	</td>
 	<td><a href="${pageContext.request.contextPath }/items/viewItems/${item.id}">商品查看</a></td>
 
 

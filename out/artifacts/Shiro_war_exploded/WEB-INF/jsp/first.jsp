@@ -96,7 +96,7 @@
 
 		</SPAN> <SPAN style="padding-left: 10px; font-size: 16px;"><IMG
 			align="absmiddle" src="images/blocks.gif" width="20" height="20">
-			医药集中采购系统</SPAN> <SPAN style="padding-left: 15px;" id="News"></SPAN>
+			商品查询购买系统</SPAN> <SPAN style="padding-left: 15px;" id="News"></SPAN>
 	</DIV>
 
 	<DIV style="background: rgb(210, 224, 242); height: 30px;" split="false"

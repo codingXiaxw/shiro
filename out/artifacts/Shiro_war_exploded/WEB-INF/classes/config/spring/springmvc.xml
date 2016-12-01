@@ -9,6 +9,7 @@
 		http://www.springframework.org/schema/context
 		http://www.springframework.org/schema/context/spring-context-3.2.xsd
 		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 		http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
 
@@ -17,6 +18,14 @@
     <!--使用spring组件扫描
     一次性配置此包下所有的Handler-->
     <context:component-scan base-package="controller"/>
+
+    <!-- 开启aop，对类代理 -->
+    <aop:config proxy-target-class="true"> </aop:config>
+    <!-- 开启shiro注解支持 -->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager" />
+    </bean>
+
 
 
 
@@ -34,22 +43,22 @@
 
 
 
-    <!--拦截器 -->
-    <mvc:interceptors>
-        <!--多个拦截器,顺序执行 -->
-        <mvc:interceptor>
-            <!--/**可以拦截路径不管有多少层-->
-            <mvc:mapping path="/**"/>
-            <bean class="controller.interceptor.LoginInterceptor"></bean>
-        </mvc:interceptor>
-        <mvc:interceptor>
-            <!--/**可以拦截路径不管有多少层-->
-            <mvc:mapping path="/**"/>
-            <bean class="controller.interceptor.PermissionInterceptor"></bean>
-        </mvc:interceptor>
+    <!--&lt;!&ndash;拦截器 &ndash;&gt;-->
+    <!--<mvc:interceptors>-->
+        <!--&lt;!&ndash;多个拦截器,顺序执行 &ndash;&gt;-->
+        <!--<mvc:interceptor>-->
+            <!--&lt;!&ndash;/**可以拦截路径不管有多少层&ndash;&gt;-->
+            <!--<mvc:mapping path="/**"/>-->
+            <!--<bean class="controller.interceptor.LoginInterceptor"></bean>-->
+        <!--</mvc:interceptor>-->
+        <!--<mvc:interceptor>-->
+            <!--&lt;!&ndash;/**可以拦截路径不管有多少层&ndash;&gt;-->
+            <!--<mvc:mapping path="/**"/>-->
+            <!--<bean class="controller.interceptor.PermissionInterceptor"></bean>-->
+        <!--</mvc:interceptor>-->
 
 
-    </mvc:interceptors>
+    <!--</mvc:interceptors>-->
 
 
 

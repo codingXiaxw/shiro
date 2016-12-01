@@ -11,7 +11,7 @@
             <param-name>contextConfigLocation</param-name>
             <!--配置文件的地址
             如果不配置contextConfigLocation，默认查找的配置文件名称是classpath下的:servlet名称+"-servlet.xml"即springmvc-servlet.xml-->
-            <param-value>classpath:config/spring/springmvc.xml</param-value>
+            <param-value> classpath:config/spring/springmvc.xml </param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -22,6 +22,29 @@
 
         <url-pattern>*.action</url-pattern>
     </servlet-mapping>
+
+
+    <!--在这里配置shiro的filter-->
+    <!-- shiro过虑器，DelegatingFilterProxy通过代理模式将spring容器中的bean和此filter关联起来 -->
+    <filter>
+        <filter-name>shiroFilter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+        <!-- 设置true由servlet容器控制filter的生命周期 -->
+        <init-param>
+            <param-name>targetFilterLifecycle</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <!-- 设置spring容器filter的bean id，如果不设置则找与filter-name一致的bean-->
+        <init-param>
+            <param-name>targetBeanName</param-name>
+            <param-value>shiroFilter</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>shiroFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
 
 
     <!--配置spring容器监听器-->
